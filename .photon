@@ -4,10 +4,10 @@
 # v0.1.2
 
 
-export PROJECT=starter
+export PROJECT=geometor
 export LOCAL="http://$PROJECT.local"
-export SERVER="https://$PROJECT.photon-platform.net"
-export SERVER_DIR="~/$PROJECT.photon-platform.net"
+export SERVER="https://$PROJECT.illumiphi.com"
+export SERVER_DIR="~/$PROJECT.illumiphi.com"
 export PROJECT_DIR="/home/phi/SITES/$PROJECT"
 export THEMES_DIR="$PROJECT_DIR/user/themes"
 export PLUGINS_DIR="$PROJECT_DIR/user/plugins"
