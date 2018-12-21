@@ -12,6 +12,11 @@ color:
     mid: 62
     dark: 44
     darker: 15
+  foreground: '#333'
+  background: '#CCC'
 font: Lato
 font_display: Montserrat
 font_code: monospace
+header_height: 9em
+fitz: .5em
+col: 18em
