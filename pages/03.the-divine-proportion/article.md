@@ -1,6 +1,6 @@
 ---
 title: 'The Divine Proportion'
-menu: 'The Divine<br>Proportion'
+
 child_type: article
 content:
     items: '@self.children'
@@ -13,9 +13,17 @@ perfection in balance and growth
 ===
 
 \[
-\definecolor{phi}{RGB}{144, 121, 44}
 \large
 \mathbf{x^2 \, - \, x \, = \, 1 }\\
+\]
+
+\[
+\begin{equation}
+  x = a_0 + \cfrac{1}{a_1
+          + \cfrac{1}{a_2
+          + \cfrac{1}{a_3 + \cfrac{1}{a_4} } } }
+\end{equation}
+
 \]
 
 \[
@@ -25,9 +33,9 @@ perfection in balance and growth
 
 \[
 \large
-\mathbf{\textcolor{phi}\phi \, =  \, \frac{\sqrt{5} + 1}{2}  }\\
+\mathbf{\color{orange}{\phi} \, =  \, \frac{\sqrt{5} + 1}{2}  }\\
 \large
-\mathbf{\textcolor{phi}\varphi \, =  \, \frac{\sqrt{5} - 1}{2} }\\
+\mathbf{\textcolor{gold}\varphi \, =  \, \frac{\sqrt{5} - 1}{2} }\\
 \]
 
 
