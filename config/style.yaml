@@ -11,9 +11,9 @@ color:
     light: 75
     mid: 62
     dark: 44
-    darker: 15
+    darker: 11
   foreground: '#333'
-  background: '#CCC'
+  background: '#F9F9F9'
 font: Lato
 font_display: Montserrat
 font_code: monospace
