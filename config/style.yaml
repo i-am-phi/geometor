@@ -5,12 +5,12 @@ color:
     hueOffset: -150
   2:
     hueOffset: 120
-  saturation: 41
+  saturation: 27
   lightness:
     lighter: 90
     light: 75
-    mid: 62
-    dark: 44
+    mid: 57
+    dark: 23
     darker: 11
   foreground: '#333'
   background: '#F9F9F9'
