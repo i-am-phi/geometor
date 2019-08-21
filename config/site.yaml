@@ -1,4 +1,4 @@
-title: Geometor
+title: GEOMETOR
 default_lang: en
 author:
   name: phi
@@ -15,4 +15,4 @@ summary:
   delimiter: '==='
 blog:
   route: /blog
-logo: logo.png
+logo: logo2.png

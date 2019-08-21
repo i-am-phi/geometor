@@ -1,6 +1,5 @@
 ---
 title: 'The Divine Proportion'
-
 child_type: article
 content:
     items: '@self.children'
