@@ -3,27 +3,29 @@
 <svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" x="0px" y="0px" width="1326px" height="824px" viewBox="0 0 1326 824">
   <title></title>
   <style>
+    .point {
+    stroke: black;
+    stroke-width: 3;
+    fill: white;
+    }
     .line {
       stroke: #808080;
       stroke-width: 3;
-      stroke-opacity: 0.5;
+      stroke-opacity: 0.3;
       stroke-linejoin: round;
       stroke-linecap: butt;
-    }
-    .point {
-      stroke: white;
-      fill: white;
     }
     .circle {
       stroke: #808080;
       stroke-width: 3;
-      stroke-opacity: 0.5;
+      stroke-opacity: 0.3;
       stroke-linejoin: round;
       stroke-linecap: butt;
 
       fill: none;
     }
     .polygon {
+      stroke-width: 5;
 
       stroke-linejoin: round;
       stroke-linecap: butt;
@@ -32,33 +34,39 @@
     }
     .bisector {
       stroke-dasharray: 13, 5, 3, 5;
+
     }
     .secondary {
       stroke-dasharray: 3 5;
     }
     .root3 {
       stroke: #93C;
+      stroke-width: 5;
       fill: #93C;
       fill-opacity: 0.2;
+      stroke-opacity: 0.7;
     }
     .segment {
-      stroke-width: 13;
+      stroke-width: 7;
       stroke-linecap: round;
     }
     .b {
-      stroke-width: 21;
+      stroke-width: 11;
     }
 
     .golden {
       stroke: #C90;
-      stroke-opacity: 0.5;
+      stroke-opacity: 0.8;
       fill: #C90;
+    }
+    .point.golden {
+      stroke-width: 5;
+      fill: black;
     }
   </style>
 
   <rect width="100%" height="100%" fill="black"/>
 
-  <g stroke-linejoin="miter" stroke-dashoffset="0.0000" stroke-dasharray="none" stroke-width="1.0000" stroke-miterlimit="10.000" stroke-linecap="square">
 
     <g id="misc">
 
@@ -110,49 +118,49 @@
       </g>
 
       <g id="Lh">
-        <path class="line root3" d="M 250.98 829.00 L 732.49 -5.0000"/>
+        <path class="line " d="M 250.98 829.00 L 732.49 -5.0000"/>
         <title>Line h</title>
         <desc>Line h: Line A, C</desc>
       </g>
 
       <g >
-        <path class="line root3" d="M 1075.0 829.00 L 593.51 -5.0000"/>
+        <path class="line " d="M 1075.0 829.00 L 593.51 -5.0000"/>
         <title>Line i</title>
         <desc>Line i: Line B, C</desc>
       </g>
 
       <g >
-        <path class="line root3" d="M 809.22 829.00 L 327.71 -5.0000"/>
+        <path class="line " d="M 809.22 829.00 L 327.71 -5.0000"/>
         <title>Line j</title>
         <desc>Line j: Line A, D</desc>
       </g>
 
       <g >
-        <path class="line root3" d="M 516.78 829.00 L 998.29 -5.0000"/>
+        <path class="line " d="M 516.78 829.00 L 998.29 -5.0000"/>
         <title>Line k</title>
         <desc>Line k: Line B, D</desc>
       </g>
 
       <g >
-        <path class="line root3 secondary" d="M -5.0000 575.74 L 1331.0 575.74"/>
+        <path class="line " d="M -5.0000 575.74 L 1331.0 575.74"/>
         <title>Line m</title>
         <desc>Line m: Line M, L</desc>
       </g>
 
       <g >
-        <path class="line root3 bisector" d="M -5.0000 36.610 L 1331.0 807.95"/>
+        <path class="line  bisector" d="M -5.0000 36.610 L 1331.0 807.95"/>
         <title>Line n</title>
         <desc>Line n: Line A, L</desc>
       </g>
 
-      <g >
+      <!-- <g >
         <path class="line root3 secondary" d="M -5.0000 115.35 L 1331.0 115.35"/>
         <title>Line a_1</title>
         <desc>Line a_1: Line G, H</desc>
-      </g>
+      </g> -->
 
       <g >
-        <path class="line root3 bisector" d="M -5.0000 807.95 L 1331.0 36.610"/>
+        <path class="line  bisector" d="M -5.0000 807.95 L 1331.0 36.610"/>
         <title>Line t_2</title>
         <desc>Line t_2: Line M, B</desc>
       </g>
@@ -218,122 +226,102 @@
 
     </g>
 
-    <g id="points">
+    <!-- <g id="points"> -->
+    <g id="points" transform="translate(-3.2709968,0)">
+
       <g id="PA">
-        <path class="point" d="M 535.10 345.55 C 535.10 348.31 532.86 350.55 530.10 350.55 C 527.34 350.55 525.10 348.31 525.10 345.55 C 525.10 342.79 527.34 340.55 530.10 340.55 C 532.86 340.55 535.10 342.79 535.10 345.55 z"/>
+        <circle class="point golden" cx="535.10" cy="345.55" r="6"/>
         <title>Point A</title>
         <desc>Point A: Point on xAxis</desc>
-
       </g>
 
-      <g>
-        <path id="PB" class="point" d="M 800.90 345.55 C 800.90 348.31 798.66 350.55 795.90 350.55 C 793.14 350.55 790.90 348.31 790.90 345.55 C 790.90 342.79 793.14 340.55 795.90 340.55 C 798.66 340.55 800.90 342.79 800.90 345.55 z"/>
+      <g id="PB">
+        <circle class="point golden" cx="800.90" cy="345.55" r="6"/>
         <title>Point B</title>
         <desc>Point B: Point on xAxis</desc>
-
       </g>
 
-      <g>
-        <path id="PC" class="point" d="M 666.00 115.35 C 666.00 117.01 664.66 118.35 663.00 118.35 C 661.34 118.35 660.00 117.01 660.00 115.35 C 660.00 113.70 661.34 112.35 663.00 112.35 C 664.66 112.35 666.00 113.70 666.00 115.35 z"/>
+      <g id="PC">
+        <circle class="point" cx="666.00" cy="115.35" r="6"/>
         <title>Point C</title>
         <desc>Point C: Intersection point of b, c</desc>
-
       </g>
 
       <g id="PD">
-        <path class="point" d="M 666.00 575.74 C 666.00 577.40 664.66 578.74 663.00 578.74 C 661.34 578.74 660.00 577.40 660.00 575.74 C 660.00 574.09 661.34 572.74 663.00 572.74 C 664.66 572.74 666.00 574.09 666.00 575.74 z"/>
+        <circle class="point golden" cx="666.00" cy="575.74" r="6"/>
         <title>Point D</title>
         <desc>Point D: Intersection point of b, c</desc>
-
       </g>
 
-      <g id="PG">
-        <path class="point" d="M 400.19 115.35 C 400.19 117.01 398.85 118.35 397.19 118.35 C 395.54 118.35 394.19 117.01 394.19 115.35 C 394.19 113.70 395.54 112.35 397.19 112.35 C 398.85 112.35 400.19 113.70 400.19 115.35 z"/>
+      <!-- <g id="PG">
+        <circle class="point" cx="400.19" cy="115.35" r="6"/>
         <title>Point G</title>
         <desc>Point G: Intersection of b and j</desc>
-
-      </g>
-
-      <g id="PH">
-        <path class="point" d="M 931.81 115.35 C 931.81 117.01 930.46 118.35 928.81 118.35 C 927.15 118.35 925.81 117.01 925.81 115.35 C 925.81 113.70 927.15 112.35 928.81 112.35 C 930.46 112.35 931.81 113.70 931.81 115.35 z"/>
-        <title>Point H</title>
-        <desc>Point H: Intersection of c and k</desc>
-
-      </g>
-
-      <!-- <g>
-        <path id="PE" class="point" d="M 666.00 345.55 C 666.00 347.21 664.66 348.55 663.00 348.55 C 661.34 348.55 660.00 347.21 660.00 345.55 C 660.00 343.89 661.34 342.55 663.00 342.55 C 664.66 342.55 666.00 343.89 666.00 345.55 z"/>
-        <title>Point E</title>
-        <desc>Point E: Intersection of a and d</desc>
-
       </g> -->
 
-      <g>
-        <path id="PL" class="point" d="M 931.81 575.74 C 931.81 577.40 930.46 578.74 928.81 578.74 C 927.15 578.74 925.81 577.40 925.81 575.74 C 925.81 574.09 927.15 572.74 928.81 572.74 C 930.46 572.74 931.81 574.09 931.81 575.74 z"/>
+      <!-- <g id="PH">
+        <circle class="point" cx="931.81" cy="115.35" r="6"/>
+        <title>Point H</title>
+        <desc>Point H: Intersection of c and k</desc>
+      </g> -->
+
+      <!-- <g id="PE" > <circle class="point" cx="666.00" cy="345.55" r="6" /> <title>Point E</title> <desc>Point E: Intersection of a and d</desc> </g> -->
+
+      <g id="PL">
+        <circle class="point" cx="931.81" cy="575.74" r="6"/>
         <title>Point L</title>
         <desc>Point L: Intersection of c and i</desc>
-
       </g>
 
-      <g>
-        <path id="PM" class="point" d="M 400.19 575.74 C 400.19 577.40 398.85 578.74 397.19 578.74 C 395.54 578.74 394.19 577.40 394.19 575.74 C 394.19 574.09 395.54 572.74 397.19 572.74 C 398.85 572.74 400.19 574.09 400.19 575.74 z"/>
+      <g id="PM">
+        <circle class="point" cx="400.19" cy="575.74" r="6"/>
         <title>Point M</title>
         <desc>Point M: Intersection of b and h</desc>
-
       </g>
 
-      <g>
-        <path id="PN" class="point" d="M 666.00 422.28 C 666.00 423.94 664.66 425.28 663.00 425.28 C 661.34 425.28 660.00 423.94 660.00 422.28 C 660.00 420.62 661.34 419.28 663.00 419.28 C 664.66 419.28 666.00 420.62 666.00 422.28 z"/>
+      <g id="PN">
+        <circle class="point" cx="666.00" cy="422.28" r="6"/>
         <title>Point N</title>
         <desc>Point N: Intersection of d and n</desc>
-
       </g>
 
-      <g>
-        <path id="PO" class="point" d="M 368.82 345.55 C 368.82 347.21 367.48 348.55 365.82 348.55 C 364.16 348.55 362.82 347.21 362.82 345.55 C 362.82 343.89 364.16 342.55 365.82 342.55 C 367.48 342.55 368.82 343.89 368.82 345.55 z"/>
+      <g id="PO">
+        <circle class="point golden" cx="368.82" cy="345.55" r="6"/>
         <title>Point O</title>
         <desc>Point O: Intersection point of e, a</desc>
-
       </g>
 
-      <g>
-        <path id="PP" class="point" d="M 963.18 345.55 C 963.18 347.21 961.84 348.55 960.18 348.55 C 958.52 348.55 957.18 347.21 957.18 345.55 C 957.18 343.89 958.52 342.55 960.18 342.55 C 961.84 342.55 963.18 343.89 963.18 345.55 z"/>
+      <g id="PP">
+        <circle class="point golden" cx="963.18" cy="345.55" r="6"/>
         <title>Point P</title>
         <desc>Point P: Intersection point of e, a</desc>
-
       </g>
 
-      <g>
-        <path id="PQ" class="point" d="M 450.96 203.28 C 450.96 204.94 449.61 206.28 447.96 206.28 C 446.30 206.28 444.96 204.94 444.96 203.28 C 444.96 201.62 446.30 200.28 447.96 200.28 C 449.61 200.28 450.96 201.62 450.96 203.28 z"/>
+      <g id="PQ">
+        <circle class="point golden" cx="450.96" cy="203.28" r="6"/>
         <title>Point Q</title>
         <desc>Point Q: Intersection of e and j</desc>
-
       </g>
 
-      <g>
-        <path id="PR" class="point" d="M 881.04 203.28 C 881.04 204.94 879.70 206.28 878.04 206.28 C 876.39 206.28 875.04 204.94 875.04 203.28 C 875.04 201.62 876.39 200.28 878.04 200.28 C 879.70 200.28 881.04 201.62 881.04 203.28 z"/>
+      <g id="PR">
+        <circle class="point golden" cx="881.04" cy="203.28" r="6"/>
         <title>Point R</title>
         <desc>Point R: Intersection of e and k</desc>
-
       </g>
 
-      <g >
-        <path id="PS" class="point" d="M 748.14 718.01 C 748.14 719.67 746.80 721.01 745.14 721.01 C 743.48 721.01 742.14 719.67 742.14 718.01 C 742.14 716.36 743.48 715.01 745.14 715.01 C 746.80 715.01 748.14 716.36 748.14 718.01 z"/>
+      <g id="PS">
+        <circle class="point golden" cx="748.14" cy="718.01" r="6"/>
         <title>Point S</title>
         <desc>Point S: Intersection of e and j</desc>
-
       </g>
 
-      <!-- clip42 -->
-      <g >
-        <path id="PT" class="point" d="M 583.86 718.01 C 583.86 719.67 582.52 721.01 580.86 721.01 C 579.20 721.01 577.86 719.67 577.86 718.01 C 577.86 716.36 579.20 715.01 580.86 715.01 C 582.52 715.01 583.86 716.36 583.86 718.01 z"/>
+      <g id="PT">
+        <circle class="point golden" cx="583.86" cy="718.01" r="6"/>
         <title>Point T</title>
         <desc>Point T: Intersection of e and k</desc>
-
       </g>
 
     </g>
 
-  </g>
 
 </svg>

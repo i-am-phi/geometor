@@ -1,14 +1,21 @@
 ---
 title: 'Golden Sections'
-menu: Golden<br>Sections
-child_type: article
+author: /home
+collection:
+    name: Articles
+    showCount: false
+    showMenu: false
 content:
     items: '@self.children'
     pagination: true
     limit: 10
+child_type: article
+figure:
+    image: 032cg.svg
+menu: Golden<br>Sections
 ---
 
-Geometric Constructions revealing the Golden Ratio
+- Geometric Constructions revealing the Golden Ratio
 
 ===
 

@@ -7,36 +7,46 @@ content:
     limit: 10
 ---
 
-perfection in balance and growth
+- perfection in balance and growth
 
 ===
 
-\[
-\large
-\mathbf{x^2 \, - \, x \, = \, 1 }\\
-\]
-
-\[
-\begin{equation}
-  x = a_0 + \cfrac{1}{a_1
-          + \cfrac{1}{a_2
-          + \cfrac{1}{a_3 + \cfrac{1}{a_4} } } }
-\end{equation}
-
-\]
+The Golden Ratio is a proportion of two unequal values a and b where
 
 \[
 \large
-\mathbf{roots\; of\; x \, :=  \,  \left\{  \left(\frac{-\sqrt{5} + 1}{2}, 0 \right),  \left(\frac{\sqrt{5} + 1}{2}, 0 \right) \right\} }
+\frac{a}{b} = \frac{b}{a+b}
+\]
+
+in other words - two unequal values a and b where \( \frac{a}{b} = \frac{b}{a+b} \)
+
+The Golden Ratio emerges at the intersection of proportional systems
+
+exists in the interference pattern of elements
+
+
+\[
+\large
+\mathbf{\Phi^2 \, - \, \Phi \, - \, 1= \, 0 }\\
+\]
+
+
+\[
+\large
+\mathbf{roots\; of\; \phi \, :=  \,  \left\{  \left(\frac{-\sqrt{5} + 1}{2}, 0 \right),  \left(\frac{\sqrt{5} + 1}{2}, 0 \right) \right\} }
 \]
 
 \[
 \large
-\mathbf{\color{orange}{\phi} \, =  \, \frac{\sqrt{5} + 1}{2}  }\\
+\mathbf{\color{#C90}{\phi} \, =  \, \frac{\sqrt{5} + 1}{2}  } \approx 1.618033989\\
 \large
-\mathbf{\textcolor{gold}\varphi \, =  \, \frac{\sqrt{5} - 1}{2} }\\
+\mathbf{\color{#C90}{\varphi} \, =  \, \frac{\sqrat{5} - 1}{2} } \approx .618033989\\
 \]
 
+\[
+\large
+.5 \times 5^.5 + .5
+\]
 
 ## The Definition
 
@@ -65,7 +75,6 @@ x^2 - x - 1 = 0
 
 relation of 5 and 1/2
 
-.5*(5^.5)+.5
 
 
 ### Geometric Mean
