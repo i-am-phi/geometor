@@ -2,20 +2,20 @@ color:
   key:
     hue: 44
   1:
-    hueOffset: -150
+    hueOffset: 0
   2:
-    hueOffset: 120
+    hueOffset: 0
   saturation: 27
   lightness:
     lighter: 90
     light: 75
-    mid: 57
+    mid: 51
     dark: 23
-    darker: 11
+    darker: 0
   foreground: '#333'
   background: '#F9F9F9'
 font: Lato
-font_display: Montserrat
+font_display: Josefin+Sans
 font_code: monospace
 header_height: 9em
 fitz: .5em
