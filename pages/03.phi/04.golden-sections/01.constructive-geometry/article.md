@@ -4,8 +4,7 @@ taxonomy:
   category:
     - geometry
   tag:
-    - constructive
-featured: false
+    - featured
 author: /home
 ---
 

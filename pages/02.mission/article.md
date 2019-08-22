@@ -1,5 +1,5 @@
 ---
-title: 'Mission & Objectives'
+title: Mission
 author: /home
 collection:
     name: Articles
@@ -11,7 +11,12 @@ child_type: article
 taxonomy:
     tag:
         - showcase
-menu: 'Mission<br>& Objectives'
 ---
 
 - seeking to understand the ordering principles of the universe
+
+===
+
+Seeking Truth Through Divine Logic
+
+The Architecture of All That Is

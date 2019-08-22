@@ -1,23 +1,27 @@
 ---
 title: circles
-featured: false
 author: /home
+collection:
+    name: Articles
+    showCount: false
+    showMenu: false
+content:
+    items: '@self.children'
+child_type: article
 taxonomy:
     category:
         - geometry
     tag:
         - foundation
         - circles
-
+featured: false
 ---
 
-- A CIRCLE is a perpendicular relationship between two points?
+- A CIRCLE is a perpendicular relationship between two points
 
 ===
 
-A CIRCLE is a perpendicular relationship between two points?
-
-a rotation of one point about the other.
+In other words, A CIRCLE is a rotation of one point about the other.
 
 Lines are "straight-forward" to consider. Circles just take you around and around.
 

@@ -1,10 +1,10 @@
 ---
-title: 'The Divine Proportion'
+title: 'PHI Φ'
+subtitle: "divine proportion - golden ratio - extreme and mean ratio"
 child_type: article
 content:
     items: '@self.children'
-    pagination: true
-    limit: 10
+menu: 'phi'
 ---
 
 - perfection in balance and growth
