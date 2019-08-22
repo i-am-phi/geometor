@@ -1,5 +1,5 @@
 ---
-title: 'Harmonic Resonance'
+title: Articles
 author: /home
 collection:
     name: Articles

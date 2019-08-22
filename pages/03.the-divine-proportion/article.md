@@ -40,7 +40,7 @@ exists in the interference pattern of elements
 \large
 \mathbf{\color{#C90}{\phi} \, =  \, \frac{\sqrt{5} + 1}{2}  } \approx 1.618033989\\
 \large
-\mathbf{\color{#C90}{\varphi} \, =  \, \frac{\sqrat{5} - 1}{2} } \approx .618033989\\
+\mathbf{\color{#C90}{\varphi} \, =  \, \frac{\sqrt{5} - 1}{2} } \approx .618033989\\
 \]
 
 \[
