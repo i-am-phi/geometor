@@ -20,7 +20,6 @@ menu: Golden<br>Sections
 ===
 
 ## Hunting Golden Sections
-![](/images/gifs/base3-anim-1000-shortloop3.gif?classes=img-responsive)
 
 
 When a line or circle intersects another line or circle, the resulting intersection point is said to section the elements.
