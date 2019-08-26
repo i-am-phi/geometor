@@ -1,5 +1,7 @@
 ---
-title: Home
+title: GEOMETOR
+subtitle: exploring the architecture of all that is
+menu: home
 author: /home
 collection:
     name: Articles
@@ -12,6 +14,18 @@ figure:
     image: logo2.svg
 ---
 
+- introduction
+- mission
+- call to action
+
+===
+
+# Research
+
 - exploring the architecture of all that is
 
-====
+# Education
+
+# Publishing
+
+# Creating

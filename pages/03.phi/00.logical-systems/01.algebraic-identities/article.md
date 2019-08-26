@@ -6,7 +6,7 @@ taxonomy:
         - algebra
     tag:
         - identities
-featured: false
+        - featured
 author: /home
 ---
 

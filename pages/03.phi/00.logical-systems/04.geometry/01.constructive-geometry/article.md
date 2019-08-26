@@ -1,11 +1,20 @@
 ---
-title: constructive geometry
-taxonomy:
-  category:
-    - geometry
-  tag:
-    - featured
+title: 'constructive geometry'
 author: /home
+collection:
+    name: Articles
+    showCount: false
+    showMenu: false
+content:
+    items: '@self.children'
+child_type: article
+figure:
+    image: all.01.png
+taxonomy:
+    category:
+        - geometry
+    tag:
+        - featured
 ---
 
 the foundational framework for our investigation of the Golden Ratio

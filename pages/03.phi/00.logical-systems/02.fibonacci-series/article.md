@@ -8,7 +8,6 @@ taxonomy:
         - fibonacci
         - lucas
         - series
-featured: false
 author: /home
 ---
 
