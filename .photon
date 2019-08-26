@@ -20,6 +20,7 @@ source ~/.photon/.photon
 alias swatch="sass --watch   \
   $THEMES_DIR/photon/scss:$THEMES_DIR/photon/css \
   $THEMES_DIR/photon-child/scss:$THEMES_DIR/photon-child/css \
+  $PLUGINS_DIR/photon-home/scss:$PLUGINS_DIR/photon-home/assets \
   $PLUGINS_DIR/photon-event/scss:$PLUGINS_DIR/photon-event/assets \
   $PLUGINS_DIR/photon-organization/scss:$PLUGINS_DIR/photon-organization/assets \
   $PLUGINS_DIR/photon-person/scss:$PLUGINS_DIR/photon-person/assets \
