@@ -1,6 +1,6 @@
 ---
 title: GEOMETOR
-subtitle: exploring the architecture of all that is
+subtitle: 'exploring the architecture of all that is'
 menu: home
 author: /home
 collection:
