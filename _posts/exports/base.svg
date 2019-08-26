@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" width="50.8cm" height="29.28055555555555cm" viewBox="0 0 1440 830">
+  <style type="text/css">
+		* {
+			fill: #999;
+			fill-opacity: 0;
+
+			stroke: #900;
+			stroke-width: 2px;
+			stroke-linecap: butt;
+			stroke-linejoin: miter;
+			stroke-miterlimit: 10px;
+			stroke-dasharray: 2, 3;
+
+		}
+		.Quadrilateral {
+			fill: #339900;
+			fill-opacity: 0.098;
+		}
+		.Quadrilateral.y {
+			fill: #993300;
+		}
+		.Quadrilateral.y.b {
+			fill: #003399;
+		}
+		.Segment {
+			fill: none;
+			stroke: #333;
+			stroke-dasharray: none;
+
+		}
+		.Q {
+			stroke: #000000;
+		}
+		.Segment.y4 {
+			stroke: #339900;
+		}
+		.Line {
+			stroke: #333;
+		}
+		.Line.b {
+			stroke-dasharray: 6,4,2,4;
+		}
+
+		.Circle {
+			stroke: #808080;
+		}
+
+		.Sector {
+			stroke-dasharray: none;
+			stroke-width: 4px;
+			fill-opacity: 0.2;
+
+		}
+
+		.Point {
+			stroke-dasharray: none;
+
+			fill: #000000;
+			fill-opacity: 1;
+			stroke: #000000;
+			stroke-linecap: round;
+			stroke-linejoin: round;
+			stroke-miterlimit: 10;
+			stroke-width: 2px;
+
+		}
+
+		.Point.p {
+			fill: #000000;
+		}
+		.Point.g {
+			stroke: #CC9900;
+			stroke-width: 4px;
+			stroke-opacity: 1;
+
+		}
+
+		.s00 {
+			stroke: #333;
+		}
+		.s01 {
+			stroke: #333;
+		}
+		.s02 {
+			stroke: #900;
+		}
+		.s03 {
+			stroke: #090;
+		}
+		.s04 {
+			stroke: #009;
+		}
+		.s05 {
+			stroke: #390;
+			fill: #390;
+		}
+
+		.st10 {
+			fill: none;
+			stroke: #808080;
+			stroke-width: 1.5;
+			stroke-linejoin: round;
+			stroke-miterlimit: 10;
+			stroke-dasharray: 1.5,3;
+		}
+
+		.Segment.g.a, .Segment.g.a1, .Segment.g.a2 {
+			stroke-linecap: butt;
+			stroke: #CC9900;
+			stroke-width: 10;
+			stroke-dasharray: 20,5;
+		}
+		.Segment.g.b, .Segment.g.b1, .Segment.g.b2 {
+			stroke-linecap: butt;
+			stroke: #CC9900;
+			stroke-width: 10;
+			stroke-dasharray: 40,5;
+		}
+
+	</style>
+    <title>Base Constructions</title>
+
+    <g id="Lines">
+        <path id="Line_i00" class="Line i s00 " d="M -5.0000 415.03 L 1445.0 415.03"/>
+        <path id="Line_b01" class="Line b s01 " d="M 716.49 835.00 L 716.49 -5.0000"/>
+        <path id="Line_i01aw" class="Line i s01 aw" d="M 652.03 835.00 L 652.03 -5.0000"/>
+        <path id="Line_i01ae" class="Line i s01 ae" d="M 780.95 835.00 L 780.95 -5.0000"/>
+        <path id="Line_i00an" class="Line i s00 an" d="M -5.0000 286.11 L 1445.0 286.11"/>
+        <path id="Line_i00as" class="Line i s00 as" d="M -5.0000 543.96 L 1445.0 543.96"/>
+        <path id="Line_i03aw_1" class="Line i s03 aw_1" d="M 926.47 835.00 L 506.47 -5.0000"/>
+        <path id="Line_i03ae_1" class="Line i s03 ae_1" d="M 506.51 835.00 L 926.51 -5.0000"/>
+        <path id="Line_i02ae" class="Line i s02 ae" d="M 1023.4 835.00 L 538.45 -5.0000"/>
+        <path id="Line_i02aw" class="Line i s02 aw" d="M 409.56 835.00 L 894.54 -5.0000"/>
+        <path id="Line_i02bw" class="Line i s02 bw" d="M 894.50 835.00 L 409.52 -5.0000"/>
+        <path id="Line_i02be" class="Line i s02 be" d="M 538.48 835.00 L 1023.5 -5.0000"/>
+        <path id="Line_i02cn" class="Line i s02 cn" d="M -5.0000 303.38 L 1445.0 303.38"/>
+        <path id="Line_i02cs" class="Line i s02 cs" d="M -5.0000 526.68 L 1445.0 526.68"/>
+        <path id="Line_i02dw" class="Line i s02 dw" d="M 280.64 835.00 L 765.61 -5.0000"/>
+        <path id="Line_i02ew" class="Line i s02 ew" d="M 765.57 835.00 L 280.60 -5.0000"/>
+        <path id="Line_i02ee" class="Line i s02 ee" d="M 667.41 835.00 L 1152.4 -5.0000"/>
+        <path id="Line_i02de" class="Line i s02 de" d="M 1152.3 835.00 L 667.37 -5.0000"/>
+        <path id="Line_i02fn" class="Line i s02 fn" d="M -5.0000 191.73 L 1445.0 191.73"/>
+        <path id="Line_i02fs" class="Line i s02 fs" d="M -5.0000 638.33 L 1445.0 638.33"/>
+        <path id="Line_i04aw" class="Line i s04 aw" d="M -5.0000 794.37 L 1379.5 -5.0000"/>
+        <path id="Line_i04ae" class="Line i s04 ae" d="M 53.435 -5.0000 L 1445.0 798.42"/>
+        <path id="Line_i04bw" class="Line i s04 bw" d="M 53.547 835.00 L 1445.0 31.644"/>
+        <path id="Line_i04be" class="Line i s04 be" d="M -5.0000 35.696 L 1379.4 835.00"/>
+        <path id="Line_i05aw" class="Line i s05 aw" d="M 232.06 835.00 L 1072.1 -5.0000"/>
+        <path id="Line_i05bw" class="Line i s05 bw" d="M 360.98 835.00 L 1201.0 -5.0000"/>
+        <path id="Line_i05ae" class="Line i s05 ae" d="M 1200.9 835.00 L 360.92 -5.0000"/>
+        <path id="Line_i05be" class="Line i s05 be" d="M 1072.0 835.00 L 232.00 -5.0000"/>
+        <path id="Line_i05cw" class="Line i s05 cw" d="M 296.52 835.00 L 1136.5 -5.0000"/>
+        <path id="Line_i05ce" class="Line i s05 ce" d="M 1136.5 835.00 L 296.46 -5.0000"/>
+        <path id="Line_i01cw" class="Line i s01 cw" d="M 523.11 835.00 L 523.11 -5.0000"/>
+        <path id="Line_i01ce" class="Line i s01 ce" d="M 909.88 835.00 L 909.88 -5.0000"/>
+        <path id="Line_i05dw" class="Line i s05 dw" d="M -5.0000 814.22 L 814.22 -5.0000"/>
+        <path id="Line_i05de" class="Line i s05 de" d="M 1445.0 821.23 L 618.77 -5.0000"/>
+        <path id="Line_i05ew" class="Line i s05 ew" d="M 814.15 835.00 L -5.0000 15.849"/>
+        <path id="Line_i05ee" class="Line i s05 ee" d="M 618.83 835.00 L 1445.0 8.8308"/>
+    </g>
+    <!-- layer1 -->
+    <g id="Circles">
+        <path id="Circle_c00aw" class="Circle c s00 aw" d="M 780.95 415.03 C 780.95 486.23 723.23 543.96 652.03 543.96 C 580.83 543.96 523.11 486.23 523.11 415.03 C 523.11 343.83 580.83 286.11 652.03 286.11 C 723.23 286.11 780.95 343.83 780.95 415.03 z"/>
+        <path id="Circle_c00ae" class="Circle c s00 ae" d="M 909.88 415.03 C 909.88 486.23 852.15 543.96 780.95 543.96 C 709.75 543.96 652.03 486.23 652.03 415.03 C 652.03 343.83 709.75 286.11 780.95 286.11 C 852.15 286.11 909.88 343.83 909.88 415.03 z"/>
+        <path id="Circle_c00bw" class="Circle c s00 bw" d="M 909.88 415.03 C 909.88 557.44 794.43 672.88 652.03 672.88 C 509.62 672.88 394.18 557.44 394.18 415.03 C 394.18 272.63 509.62 157.19 652.03 157.19 C 794.43 157.19 909.88 272.63 909.88 415.03 z"/>
+        <path id="Circle_c00be" class="Circle c s00 be" d="M 1038.8 415.03 C 1038.8 557.44 923.36 672.88 780.95 672.88 C 638.55 672.88 523.11 557.44 523.11 415.03 C 523.11 272.63 638.55 157.19 780.95 157.19 C 923.36 157.19 1038.8 272.63 1038.8 415.03 z"/>
+        <path id="Circle_c00cw" class="Circle c s00 cw" d="M 780.95 415.03 C 780.95 557.44 665.51 672.88 523.11 672.88 C 380.70 672.88 265.26 557.44 265.26 415.03 C 265.26 272.63 380.70 157.19 523.11 157.19 C 665.51 157.19 780.95 272.63 780.95 415.03 z"/>
+        <path id="Circle_c00ce" class="Circle c s00 ce" d="M 1167.7 415.03 C 1167.7 557.44 1052.3 672.88 909.88 672.88 C 767.47 672.88 652.03 557.44 652.03 415.03 C 652.03 272.63 767.47 157.19 909.88 157.19 C 1052.3 157.19 1167.7 272.63 1167.7 415.03 z"/>
+        <path id="Circle_c03a" class="Circle c s03 a" d="M 860.63 415.03 C 860.63 494.64 796.10 559.17 716.49 559.17 C 636.88 559.17 572.35 494.64 572.35 415.03 C 572.35 335.43 636.88 270.89 716.49 270.89 C 796.10 270.89 860.63 335.43 860.63 415.03 z"/>
+        <path id="Circle_g00aw" class="Circle g s00 aw" d="M 731.71 415.03 C 731.71 459.04 696.03 494.71 652.03 494.71 C 608.02 494.71 572.35 459.04 572.35 415.03 C 572.35 371.03 608.02 335.35 652.03 335.35 C 696.03 335.35 731.71 371.03 731.71 415.03 z"/>
+        <path id="Circle_g00ae" class="Circle g s00 ae" d="M 860.63 415.03 C 860.63 459.04 824.96 494.71 780.95 494.71 C 736.95 494.71 701.27 459.04 701.27 415.03 C 701.27 371.03 736.95 335.35 780.95 335.35 C 824.96 335.35 860.63 371.03 860.63 415.03 z"/>
+        <path id="Circle_c00d" class="Circle c s00 d" d="M 780.95 415.03 C 780.95 450.63 752.09 479.49 716.49 479.49 C 680.89 479.49 652.03 450.63 652.03 415.03 C 652.03 379.43 680.89 350.57 716.49 350.57 C 752.09 350.57 780.95 379.43 780.95 415.03 z"/>
+        <path id="Circle_c00ew" class="Circle c s00 ew" d="M 716.49 415.03 C 716.49 450.63 687.63 479.49 652.03 479.49 C 616.43 479.49 587.57 450.63 587.57 415.03 C 587.57 379.43 616.43 350.57 652.03 350.57 C 687.63 350.57 716.49 379.43 716.49 415.03 z"/>
+        <path id="Circle_c00ee" class="Circle c s00 ee" d="M 845.41 415.03 C 845.41 450.63 816.55 479.49 780.95 479.49 C 745.35 479.49 716.49 450.63 716.49 415.03 C 716.49 379.43 745.35 350.57 780.95 350.57 C 816.55 350.57 845.41 379.43 845.41 415.03 z"/>
+        <path id="Circle_c02an" class="Circle c s02 an" d="M 845.41 303.38 C 845.41 374.58 787.69 432.30 716.49 432.30 C 645.29 432.30 587.57 374.58 587.57 303.38 C 587.57 232.18 645.29 174.46 716.49 174.46 C 787.69 174.46 845.41 232.18 845.41 303.38 z"/>
+        <path id="Circle_c02as" class="Circle c s02 as" d="M 845.41 526.68 C 845.41 597.89 787.69 655.61 716.49 655.61 C 645.29 655.61 587.57 597.89 587.57 526.68 C 587.57 455.48 645.29 397.76 716.49 397.76 C 787.69 397.76 845.41 455.48 845.41 526.68 z"/>
+        <path id="Circle_c04an" class="Circle c s04 an" d="M 865.36 377.82 C 865.36 460.03 798.71 526.68 716.49 526.68 C 634.27 526.68 567.62 460.03 567.62 377.82 C 567.62 295.60 634.27 228.95 716.49 228.95 C 798.71 228.95 865.36 295.60 865.36 377.82 z"/>
+        <path id="Circle_c04as" class="Circle c s04 as" d="M 865.36 452.25 C 865.36 534.47 798.71 601.12 716.49 601.12 C 634.27 601.12 567.62 534.47 567.62 452.25 C 567.62 370.03 634.27 303.38 716.49 303.38 C 798.71 303.38 865.36 370.03 865.36 452.25 z"/>
+        <path id="Circle_c05aw" class="Circle c s05 aw" d="M 834.35 415.03 C 834.35 515.73 752.72 597.36 652.03 597.36 C 551.33 597.36 469.70 515.73 469.70 415.03 C 469.70 314.34 551.33 232.71 652.03 232.71 C 752.72 232.71 834.35 314.34 834.35 415.03 z"/>
+        <path id="Circle_c05ae" class="Circle c s05 ae" d="M 963.28 415.03 C 963.28 515.73 881.65 597.36 780.95 597.36 C 680.26 597.36 598.63 515.73 598.63 415.03 C 598.63 314.34 680.26 232.71 780.95 232.71 C 881.65 232.71 963.28 314.34 963.28 415.03 z"/>
+        <path id="Circle_c05c" class="Circle c s05 c" d="M 807.65 415.03 C 807.65 465.38 766.84 506.19 716.49 506.19 C 666.14 506.19 625.33 465.38 625.33 415.03 C 625.33 364.68 666.14 323.87 716.49 323.87 C 766.84 323.87 807.65 364.68 807.65 415.03 z"/>
+        <path id="Circle_c06an" class="Circle c s06 an" d="M 909.88 286.11 C 909.88 392.91 823.29 479.49 716.49 479.49 C 609.69 479.49 523.11 392.91 523.11 286.11 C 523.11 179.31 609.69 92.725 716.49 92.725 C 823.29 92.725 909.88 179.31 909.88 286.11 z"/>
+        <path id="Circle_c06as" class="Circle c s06 as" d="M 909.88 543.96 C 909.88 650.76 823.29 737.34 716.49 737.34 C 609.69 737.34 523.11 650.76 523.11 543.96 C 523.11 437.15 609.69 350.57 716.49 350.57 C 823.29 350.57 909.88 437.15 909.88 543.96 z"/>
+        <path id="Circle_c010" class="Circle c s010 " d="M 963.28 350.57 C 963.28 451.27 881.65 532.90 780.95 532.90 C 680.26 532.90 598.63 451.27 598.63 350.57 C 598.63 249.88 680.26 168.25 780.95 168.25 C 881.65 168.25 963.28 249.88 963.28 350.57 z"/>
+    </g>
+    <!-- layer3 -->
+    <g id="Sectors">
+        <path id="Segment_r00b" class="Segment r s00 b" d="M 780.95 415.03 L 523.11 415.03"/>
+        <path id="Segment_r00a" class="Segment r s00 a" d="M 652.03 415.03 L 909.88 415.03"/>
+        <path id="Segment_r06as" class="Segment r s06 as" d="M 716.49 543.96 L 909.88 543.96"/>
+        <path id="Segment_r06an" class="Segment r s06 an" d="M 716.49 286.11 L 909.88 286.11"/>
+        <path id="Segment_r05aw" class="Segment r s05 aw" d="M 652.03 415.03 L 780.95 286.11"/>
+        <path id="Segment_r05ae" class="Segment r s05 ae" d="M 780.95 415.03 L 652.03 543.96"/>
+        <path id="Segment_r04as" class="Segment r s04 as" d="M 716.49 452.25 L 587.57 526.68"/>
+        <path id="Segment_r04an" class="Segment r s04 an" d="M 716.49 377.82 L 845.41 303.38"/>
+        <path id="Segment_r03a" class="Segment r s03 a" d="M 716.49 415.03 L 780.95 286.11"/>
+        <path id="Sector_s03a" class="Sector s s03 a" d="M 860.63 415.03 C 860.63 360.44 829.78 310.53 780.95 286.11 L 716.49 415.03 z"/>
+        <path id="Sector_s04an_2" class="Sector s s04 an_2" d="M 860.63 415.03 C 870.38 377.26 864.92 337.17 845.41 303.38 L 716.49 377.82 z"/>
+        <path id="Sector_s04an" class="Sector s s04 an" d="M 572.35 415.03 C 562.60 452.81 568.06 492.90 587.57 526.68 L 716.49 452.25 z"/>
+        <path id="Sector_s05an" class="Sector s s05 an" d="M 820.79 346.03 C 811.62 323.61 798.08 303.24 780.95 286.11 L 652.03 415.03 z"/>
+        <path id="Sector_s05as" class="Sector s s05 as" d="M 612.19 484.04 C 621.36 506.46 634.90 526.83 652.03 543.96 L 780.95 415.03 z"/>
+        <path id="Sector_s004a" class="Sector s s004 a" d="M 523.11 286.11 C 523.11 333.68 540.64 379.58 572.35 415.03 L 716.49 286.11 z"/>
+        <path id="Sector_s004b" class="Sector s s004 b" d="M 909.88 543.96 C 909.88 496.39 892.34 450.49 860.63 415.03 L 716.49 543.96 z"/>
+        <path id="Sector_s05c" class="Sector s s05 c" d="M 860.63 415.03 C 892.34 379.58 909.88 333.68 909.88 286.11 L 716.49 286.11 z"/>
+    </g>
+    <!-- layer4 -->
+    <g id="Shapes">
+        <path id="Segment_Q5" class="Segment Q s5 " d="M 652.03 286.11 L 780.95 543.96"/>
+        <path id="Segment_Q3" class="Segment Q s3 " d="M 716.49 303.38 L 716.49 526.68"/>
+        <path id="Segment_Q1" class="Segment Q s1 " d="M 652.03 415.03 L 780.95 415.03"/>
+        <path id="Quadrilateral_y4n" class="Quadrilateral y s4 n" d="M 652.03 286.11 L 780.95 286.11 L 780.95 415.03 L 652.03 415.03 z"/>
+        <path id="Quadrilateral_y4s" class="Quadrilateral y s4 s" d="M 652.03 415.03 L 780.95 415.03 L 780.95 543.96 L 652.03 543.96 z"/>
+        <path id="Quadrilateral_y4dn" class="Quadrilateral y s4 dn" d="M 716.49 350.57 L 523.11 543.96 L 716.49 737.34 L 909.88 543.96 z"/>
+        <path id="Quadrilateral_y4ds" class="Quadrilateral y s4 ds" d="M 716.49 479.49 L 523.11 286.11 L 716.49 92.725 L 909.88 286.11 z"/>
+        <path id="Segment_Q2" class="Segment Q s2 " d="M 652.03 415.03 L 780.95 286.11"/>
+        <path id="Triangle_y3n" class="Triangle y s3 n" d="M 587.57 303.38 L 845.41 303.38 L 716.49 526.68 z"/>
+        <path id="Triangle_y3s" class="Triangle y s3 s" d="M 716.49 303.38 L 587.57 526.68 L 845.41 526.68 z"/>
+    </g>
+    <!-- layer5 -->
+    <g id="Sections">
+        <path id="Segment_g002b" class="Segment g s002 b" d="M 652.03 415.03 L 780.95 415.03"/>
+        <path id="Segment_g002a2" class="Segment g s002 a2" d="M 572.35 415.03 L 652.03 415.03"/>
+        <path id="Segment_g002a1" class="Segment g s002 a1" d="M 780.95 415.03 L 860.63 415.03"/>
+        <path id="Segment_g001b" class="Segment g s001 b" d="M 716.49 303.38 L 716.49 526.68"/>
+        <path id="Segment_g001a2" class="Segment g s001 a2" d="M 716.49 165.37 L 716.49 303.38"/>
+        <path id="Segment_g001a1" class="Segment g s001 a1" d="M 716.49 526.68 L 716.49 664.69"/>
+    </g>
+    <!-- layer6 -->
+    <g id="Points">
+        <path id="Point_wTL" class="Point w s TL" d="M 200.80 25.263 L 200.80 31.263"/>
+        <path id="Point_wTL" class="Point w s TL" d="M 197.80 28.263 L 203.80 28.263"/>
+        <path id="Point_wBR" class="Point w s BR" d="M 1232.2 798.80 L 1232.2 804.80"/>
+        <path id="Point_wBR" class="Point w s BR" d="M 1229.2 801.80 L 1235.2 801.80"/>
+
+        <circle id="Point_g000w" class="Point Point g s000 w" cx="657.03" cy="415.03" r="3px"/>
+        <circle id="Point_g000e" class="Point Point g s000 e" cx="785.95" cy="415.03" r="3px"/>
+        <circle id="Point_g001n" class="Point Point g s001 n" cx="721.49" cy="303.38" r="3px"/>
+        <circle id="Point_g001s" class="Point Point g s001 s" cx="721.49" cy="526.68" r="3px"/>
+        <circle id="Point_p002" class="Point Point p s002 " cx="719.49" cy="415.03" r="3px"/>
+        <circle id="Point_p003e" class="Point Point p s003 e" cx="912.88" cy="415.03" r="3px"/>
+        <circle id="Point_p003w" class="Point Point p s003 w" cx="526.11" cy="415.03" r="3px"/>
+        <circle id="Point_g004n" class="Point Point g s004 n" cx="721.49" cy="165.37" r="3px"/>
+        <circle id="Point_g004s" class="Point Point g s004 s" cx="721.49" cy="664.69" r="3px"/>
+        <circle id="Point_g01e" class="Point Point g s01 e" cx="865.63" cy="415.03" r="3px"/>
+        <circle id="Point_g01w" class="Point Point g s01 w" cx="577.35" cy="415.03" r="3px"/>
+        <circle id="Point_g02e" class="Point Point g s02 e" cx="736.71" cy="415.03" r="3px"/>
+        <circle id="Point_g02w" class="Point Point g s02 w" cx="706.27" cy="415.03" r="3px"/>
+        <circle id="Point_p005nw" class="Point Point p s005 nw" cx="655.03" cy="191.73" r="3px"/>
+        <circle id="Point_p005sw" class="Point Point p s005 sw" cx="655.03" cy="638.33" r="3px"/>
+        <circle id="Point_p005ne" class="Point Point p s005 ne" cx="783.95" cy="191.73" r="3px"/>
+        <circle id="Point_p005se" class="Point Point p s005 se" cx="783.95" cy="638.33" r="3px"/>
+        <circle id="Point_p006nw" class="Point Point p s006 nw" cx="655.03" cy="286.11" r="3px"/>
+        <circle id="Point_p006sw" class="Point Point p s006 sw" cx="655.03" cy="543.96" r="3px"/>
+        <circle id="Point_p006ne" class="Point Point p s006 ne" cx="783.95" cy="286.11" r="3px"/>
+        <circle id="Point_p006se" class="Point Point p s006 se" cx="783.95" cy="543.96" r="3px"/>
+        <circle id="Point_p007n" class="Point Point p s007 n" cx="655.03" cy="350.57" r="3px"/>
+        <circle id="Point_p007s" class="Point Point p s007 s" cx="655.03" cy="479.49" r="3px"/>
+        <circle id="Point_p008n" class="Point Point p s008 n" cx="783.95" cy="350.57" r="3px"/>
+        <circle id="Point_p008s" class="Point Point p s008 s" cx="783.95" cy="479.49" r="3px"/>
+        <circle id="Point_p009w" class="Point Point p s009 w" cx="590.57" cy="303.38" r="3px"/>
+        <circle id="Point_p009e" class="Point Point p s009 e" cx="848.41" cy="303.38" r="3px"/>
+        <circle id="Point_p010w" class="Point Point p s010 w" cx="590.57" cy="526.68" r="3px"/>
+        <circle id="Point_p010e" class="Point Point p s010 e" cx="848.41" cy="526.68" r="3px"/>
+        <circle id="Point_p011w" class="Point Point p s011 w" cx="461.64" cy="303.38" r="3px"/>
+        <circle id="Point_p011e" class="Point Point p s011 e" cx="977.34" cy="303.38" r="3px"/>
+        <circle id="Point_p012w" class="Point Point p s012 w" cx="461.64" cy="526.68" r="3px"/>
+        <circle id="Point_p012e" class="Point Point p s012 e" cx="977.34" cy="526.68" r="3px"/>
+        <circle id="Point_p013w" class="Point Point p s013 w" cx="526.11" cy="191.73" r="3px"/>
+        <circle id="Point_p013e" class="Point Point p s013 e" cx="912.88" cy="191.73" r="3px"/>
+        <circle id="Point_p014w" class="Point Point p s014 w" cx="526.11" cy="638.33" r="3px"/>
+        <circle id="Point_p014e" class="Point Point p s014 e" cx="912.88" cy="638.33" r="3px"/>
+        <circle id="Point_p015n" class="Point Point p s015 n" cx="719.49" cy="377.82" r="3px"/>
+        <circle id="Point_p015s" class="Point Point p s015 s" cx="719.49" cy="452.25" r="3px"/>
+        <circle id="Point_p016w" class="Point Point p s016 w" cx="526.11" cy="286.11" r="3px"/>
+        <circle id="Point_p016e" class="Point Point p s016 e" cx="912.88" cy="286.11" r="3px"/>
+        <circle id="Point_p017w" class="Point Point p s017 w" cx="526.11" cy="543.96" r="3px"/>
+        <circle id="Point_p017e" class="Point Point p s017 e" cx="912.88" cy="543.96" r="3px"/>
+        <circle id="Point_p018n" class="Point Point p s018 n" cx="719.49" cy="286.11" r="3px"/>
+        <circle id="Point_p018s" class="Point Point p s018 s" cx="719.49" cy="543.96" r="3px"/>
+        <circle id="Point_g05" class="Point Point g s005 w_1" cx="617.19" cy="484.04" r="3px"/>
+        <circle id="Point_g005w" class="Point Point g s005 w" cx="825.79" cy="484.04" r="3px"/>
+        <circle id="Point_p021n" class="Point Point p s021 n" cx="719.49" cy="92.725" r="3px"/>
+        <circle id="Point_p021s" class="Point Point p s021 s" cx="719.49" cy="737.34" r="3px"/>
+    </g>
+
+    <defs></defs>
+    <!-- font definitions -->
+    <!-- default stroke -->
+</svg>
+<!-- bounding box -->

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 105.83333 105.83334"
+   height="400"
+   width="400"
+   sodipodi:docname="photon-logo.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:export-filename="/home/phi/SITES/photon-platform/user/pages/04.systems/00.tools/photon-logo.png"
+   inkscape:export-xdpi="72"
+   inkscape:export-ydpi="72">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     id="namedview914"
+     showgrid="false"
+     inkscape:zoom="2.0425"
+     inkscape:cx="200"
+     inkscape:cy="200"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <ellipse
+     style="opacity:1;fill:#1d1d1d;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path916"
+     cx="52.981438"
+     cy="52.916668"
+     rx="53.110977"
+     ry="52.916668" />
+  <g
+     style="display:inline"
+     transform="translate(0,-191.16665)"
+     id="layer1" />
+  <g
+     style="display:none"
+     id="layer3">
+    <rect
+       y="0"
+       x="0"
+       height="105.83334"
+       width="105.96288"
+       id="rect896"
+       style="opacity:0.4510002;fill:#483737;fill-opacity:1;stroke:none;stroke-width:0.00000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     style="display:inline"
+     id="layer2"
+     transform="translate(-0.0647683,0.96276585)">
+    <path
+       d="M 52.981439,1.1639633 60.406168,34.029016 88.895347,16.039992 70.906322,44.52917 103.77137,51.953901 70.906321,59.37863 88.895345,87.867809 60.406167,69.878783 52.981436,102.74384 45.556707,69.878783 17.067529,87.867807 35.056554,59.378629 2.1915016,51.953898 35.056554,44.529169 17.06753,16.03999 45.556709,34.029015 Z"
+       id="path854"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.00000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
