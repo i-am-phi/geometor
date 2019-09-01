@@ -7,7 +7,6 @@ taxonomy:
         - collection
     tag:
         - √2
-featured: false
 author: /home
 ---
 

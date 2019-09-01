@@ -8,6 +8,8 @@ collection:
 content:
     items: '@self.children'
 child_type: article
+gallery:
+    show: true
 taxonomy:
     tag:
         - showcase

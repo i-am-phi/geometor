@@ -8,11 +8,6 @@ figure:
     image:
     title:
     caption:
-taxonomy:
-  tag:
-    -
-  category:
-    -
 ---
 
 

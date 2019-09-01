@@ -1,6 +1,6 @@
 ---
-title: Arithmetic Series
-menu: Arithmetic Series
+title: 'Series'
+menu: 'Arithmetic Series'
 taxonomy:
     category:
         - arithmetic
@@ -11,7 +11,9 @@ taxonomy:
 author: /home
 ---
 
-Arithmetic Progression and the Divine Proportion - including the Fibonacci Series and Lucas Numbers
+- Fibonacci Series
+- Lucas Numbers
+- Binet's Forumal
 
 ===
 

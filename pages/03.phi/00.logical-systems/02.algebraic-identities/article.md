@@ -1,13 +1,21 @@
 ---
-title: Algebraic Identities of the Golden Ratio
-menu: Algebraic Identities
+title: Identities
+subtitle: 'Algebraic Expressions related to PHI'
+author: /home
+collection:
+    name: Articles
+    showCount: false
+    showMenu: false
+content:
+    items: '@self.children'
+child_type: article
 taxonomy:
     category:
         - algebra
     tag:
-        - identities
         - featured
-author: /home
+        - identities
+menu: 'Algebraic Identities'
 ---
 
 A study of the algebraic attributes and identities of the Divine Proportion

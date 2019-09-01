@@ -1,6 +1,5 @@
 ---
-title: Contact
-visible: true
+title: Send Us a Message
 form:
     name: contact-form
     fields:
@@ -48,4 +47,6 @@ form:
             display: thankyou
 ---
 
-We look forward to hearing from you
+- We will get back to you as soon as possible.
+
+===

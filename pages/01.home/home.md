@@ -20,6 +20,10 @@ figure:
 
 ===
 
+The GEOMETOR project is motivated by our sense of wonder
+
+over a simple proportional relationship.
+
 # Research
 
 - exploring the architecture of all that is

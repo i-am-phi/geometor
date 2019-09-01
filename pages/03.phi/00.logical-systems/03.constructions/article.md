@@ -1,5 +1,6 @@
 ---
-title: 'Golden Sections'
+title: Constructions
+subtitle: 'Searching for PHI within a system of structures.'
 author: /home
 collection:
     name: Articles
@@ -15,7 +16,7 @@ figure:
 menu: Golden<br>Sections
 ---
 
-- Geometric Constructions revealing the Golden Ratio
+A Golden Section is the ratio of two segments within a construction where the proportion of their measures is PHI.
 
 ===
 

@@ -4,15 +4,6 @@ subtitle: "arithmetic, geometry, algebra"
 content:
     items: '@self.children'
 child_type: article
-figure:
-    image:
-    title:
-    caption:
-taxonomy:
-  tag:
-    -
-  category:
-    -
 ---
 
 - Phi emerges at the outset when exploring the simplest of logical relationships

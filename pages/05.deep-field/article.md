@@ -9,6 +9,7 @@ collection:
 content:
     items: '@self.children'
 child_type: article
+menu: 'deep field'
 ---
 
 Like the Hubble Deep Field Experiment which searched fro galaxies in an empty spot in space, we are are planning to turn Geomtor Explorer to a blank canvas to see howm any unique instances of golden ratios we can find. 
