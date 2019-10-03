@@ -1,4 +1,4 @@
-enabled: true
+enabled: false
 theme: night
 order:
   by: folder
@@ -18,6 +18,7 @@ token_auth: false
 token: Hd4HFdPvbpKzTqz
 admin_async_save: false
 admin_async_save_typing: false
+footer: ''
 transition: true
 shortcodes: true
 shortcode_classes: presentation-iframe

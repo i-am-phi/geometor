@@ -13,7 +13,7 @@ taxonomy:
     category:
         - algebra
     tag:
-        - featured
+        # - featured
         - identities
 menu: 'Algebraic Identities'
 ---

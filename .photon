@@ -6,8 +6,8 @@
 
 export PROJECT=geometor
 export LOCAL="http://$PROJECT.local"
-export SERVER="https://$PROJECT.illumiphi.com"
-export SERVER_DIR="~/$PROJECT.illumiphi.com"
+export SERVER="https://$PROJECT.com"
+export SERVER_DIR="~/$PROJECT.com"
 export PROJECT_DIR="/home/phi/SITES/$PROJECT"
 export THEMES_DIR="$PROJECT_DIR/user/themes"
 export PLUGINS_DIR="$PROJECT_DIR/user/plugins"

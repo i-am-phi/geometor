@@ -13,6 +13,12 @@ figure:
     image: root3.png
 gallery:
     show: true
+taxonomy:
+    category:
+        # - algebra
+    tag:
+        - featured
+
 ---
 
 **GEOMETOR Explorer** is an essential tool of the GEOMETOR Project.

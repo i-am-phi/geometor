@@ -8,6 +8,8 @@ collection:
 content:
     items: '@self.children'
 child_type: article
+figure:
+    image: image-000000117.png
 gallery:
     show: true
 taxonomy:
