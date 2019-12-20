@@ -1,8 +1,9 @@
 ---
-title: TEAM
+title: About
+menu: about
 author: /home
 collection:
-    name: Articles
+    name: Team
     showCount: false
     showMenu: false
 content:
@@ -10,9 +11,10 @@ content:
     pagination: true
     limit: 10
 child_type: article
-menu: about
 ---
 
-- The people behind the Geometor Project
+- collaboration
+- education
+- discovery
 
-====
+===
