@@ -12,6 +12,7 @@ content:
 child_type: article
 figure:
     image: logo2.svg
+
 ---
 
 - introduction
