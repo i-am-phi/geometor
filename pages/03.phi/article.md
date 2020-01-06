@@ -1,20 +1,20 @@
 ---
-title: 'PHI Φ'
-subtitle: 'perfection in balance and growth'
+title: PHI Φ
+subtitle: perfection in balance and growth
 menu: phi
-author: /home
+author: phi
 collection:
-    name: Articles
-    showCount: false
-    showMenu: false
+  name: Articles
+  showCount: false
+  showMenu: false
 content:
-    items: '@self.children'
+  items: '@self.children'
 child_type: article
 figure:
-    image: phi-logo-dark.svg
+  image: phi-logo-dark.svg
 taxonomy:
-    tag:
-        - showcase
+  tag:
+    - showcase
 ---
 
 - divine proportion

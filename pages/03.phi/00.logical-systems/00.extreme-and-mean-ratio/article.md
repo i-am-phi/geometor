@@ -1,6 +1,6 @@
 ---
-title: "Extreme and Mean Ratio"
-subtitle: "The Golden Ratio is also a Golden Mean"
+title: Extreme and Mean Ratio
+subtitle: The Golden Ratio is also a Golden Mean
 content:
     items: '@self.children'
 child_type: article

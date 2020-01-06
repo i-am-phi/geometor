@@ -1,0 +1,488 @@
+{
+"forum": [
+	{
+		"id": "http://zotero.org/users/4453783/items/PSPIWA9C",
+		"type": "webpage",
+		"title": "TRIANGLE CENTERS",
+		"URL": "http://faculty.evansville.edu/ck6/tcenters/index.html",
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4453783/items/NYAE8JE4",
+		"type": "webpage",
+		"title": "ENCYCLOPEDIA OF TRIANGLE CENTERS",
+		"URL": "http://faculty.evansville.edu/ck6/encyclopedia/ETC.html",
+		"author": [
+			{
+				"family": "Kimberling",
+				"given": "Clark"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4453783/items/2G92W3WZ",
+		"type": "webpage",
+		"title": "Introduction To The Geometry of the Triangle",
+		"URL": "http://math.fau.edu/Yiu/YIUIntroductionToTriangleGeometry121226.pdf",
+		"author": [
+			{
+				"family": "Yiu",
+				"given": "Paul"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4453783/items/EZRHEFN7",
+		"type": "webpage",
+		"title": "Paul Yiu Articles",
+		"URL": "http://math.fau.edu/yiu/Geometry.html",
+		"author": [
+			{
+				"family": "Yiu",
+				"given": "Paul"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4453783/items/VHC5UJ75",
+		"type": "webpage",
+		"abstract": "Given a triangle, the isogonal conjugates of the infinite points of the side lines of the Morley (equilateral) triangle is an equilateral triangle PQR inscribed in the circumcircle. Their isotomic conjugates form another equilateral triangle P'Q'R' inscribed in the Steiner circum-ellipse, homothetic to PQR at the Steiner point. We show that under the one-to-one correspondence P --> P' between the circumcircle and the Steiner circum-ellipse established by isogonal and then isotomic conjugations, this is the only case when both PQR and P'Q'R' are equilateral.",
+		"container-title": "Forum Geometricorum",
+		"title": "A Morley Configuration",
+		"URL": "http://forumgeom.fau.edu/FG2001volume1/FG200108index.html",
+		"author": [
+			{
+				"family": "Ehrmann",
+				"given": "Jean-Pierre"
+			},
+			{
+				"family": "Gibert",
+				"given": "Bernard"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4453783/items/85H7Y8BC",
+		"type": "webpage",
+		"abstract": "A solution is given of Steiner's variation of the classical Malfatti problem in which the triangle is replaced by three circles mutually tangent to each other externally. The two circles tangent to the three given ones, presently known as Soddy's circles, are encountered as well.",
+		"container-title": "Forum Geometricorum",
+		"title": "The Malfatti Problem",
+		"URL": "http://forumgeom.fau.edu/FG2001volume1/FG200107index.html",
+		"author": [
+			{
+				"family": "Bottema",
+				"given": "Oene"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4453783/items/DGM4TNQW",
+		"type": "webpage",
+		"abstract": "In trilinear coordinates with respect to a given triangle ABC, we define the isogonal tripolar of a point P(p,q,r) to be the line  p: p\\alpha + q\\beta + r\\gamma = 0. We construct a unique conic \\Phi, called the isogonal tripolar conic, with respect to which  p is the polar of P for all P. Although the conic is imaginary, it has a real center and real axes coinciding with the center and axes of the real  orthic inconic. Since ABC is self-conjugate with respect to \\Phi, the imaginary conic is harmonically related to every circumconic and inconic of ABC. In particular, \\Phi is the reciprocal conic of the circumcircle and Steiner's inscribed ellipse. We also construct an analogous isotomic tripolar conic \\Psi by working with barycentric coordinates.",
+		"container-title": "Forum Geometricorum",
+		"title": "The Isogonal Tripolar Conic",
+		"URL": "http://forumgeom.fau.edu/FG2001volume1/FG200106index.html",
+		"author": [
+			{
+				"family": "Parry",
+				"given": "Cyril"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4453783/items/T2EWEP7A",
+		"type": "webpage",
+		"abstract": "Given a point P in the plane of triangle ABC, we consider rays through P parallel to the side lines. The intercepts on the sidelines form an equilateral triangle precisely when P is a  Brocardian point of one of the Fermat points. There are exactly four such equilateral triangles.",
+		"container-title": "Forum Geometricorum",
+		"title": "Equilateral Triangles Intercepted by Oriented Parallelians",
+		"URL": "http://forumgeom.fau.edu/FG2001volume1/FG200105index.html",
+		"author": [
+			{
+				"family": "Bier",
+				"given": "Sabrina"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4453783/items/9A3ZU2ZW",
+		"type": "webpage",
+		"abstract": "We give a proof of the famous Erd\"os-Mordell inequality using Ptolemy's theorem.",
+		"container-title": "Forum Geometricorum",
+		"title": "Another Proof of the Erd˝os-Mordell Theorem.",
+		"URL": "http://forumgeom.fau.edu/FG2001volume1/FG200102index.html",
+		"author": [
+			{
+				"family": "Lee",
+				"given": "Hojoo"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4453783/items/KSGU8IIT",
+		"type": "webpage",
+		"abstract": "We give effective constructions of  Heron triangles by considering the intersection of a median and a cevian through the Gergonne point.",
+		"container-title": "Forum Geometricorum",
+		"title": "Heron Triangles: A Gergonne-Cevian-and-Median Perspective.",
+		"URL": "http://forumgeom.fau.edu/FG2001volume1/FG200104index.html",
+		"author": [
+			{
+				"family": "Sastry",
+				"given": "K.R.S."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4453783/items/88G68BJD",
+		"type": "webpage",
+		"abstract": "This paper answers a question of Yiu: given a triangle ABC, to construct and enumerate the triangles which share the same circumcircle and incircle and are perspective with ABC. We show that there are exactly three such triangles, each easily constructible using ruler and compass.",
+		"title": "Perspective Poristic Triangles.",
+		"URL": "http://forumgeom.fau.edu/FG2001volume1/FG200103index.html",
+		"author": [
+			{
+				"family": "Brisse",
+				"given": "Edward"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4453783/items/KG974ZXX",
+		"type": "webpage",
+		"abstract": "If we erect on the sides of a scalene triangle three squares, then at the vertices of the triangle we find new triangles,  the flanks. We study pairs of triangle centers X and Y such that the triangle of X's in the three flanks is perspective with ABC at Y, and vice versa. These centers X and Y we call friends. Some examples of friendship among triangle centers are given.",
+		"container-title": "Forum Geometricorum",
+		"title": "Friendship Among Triangle Centers",
+		"URL": "http://forumgeom.fau.edu/FG2001volume1/FG200101index.html",
+		"author": [
+			{
+				"family": "Lamoen",
+				"given": "Floor",
+				"non-dropping-particle": "van"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4453783/items/CGJEWAT7",
+		"type": "webpage",
+		"abstract": "The chord of the circumcircle of an isosceles triangle whose intersections with the legs of the triangles divide symmetrically the chord in the golden ratio.",
+		"title": "17.3 The golden ratio and regular polygons",
+		"URL": "http://forumgeom.fau.edu/FG2017volume17/FG201703index.html",
+		"author": [
+			{
+				"family": "Pietsch",
+				"given": "Manfred"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4453783/items/UAL4P2GE",
+		"type": "webpage",
+		"abstract": "We compute the dimensions of a regular tetragonal pyramid, which\nallows a cut by a plane along a regular pentagon. In addition, we relate this\nconstruction to a simple construction of the icosahedron and make a conjecture\non the impossibility to generalize such sections of regular pyramids.",
+		"title": "17.1 Putting the Icosahedron into the Octahedron",
+		"URL": "http://forumgeom.fau.edu/FG2017volume17/FG201710index.html",
+		"author": [
+			{
+				"family": "Pamfilos",
+				"given": "Paris"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4453783/items/3K6ANR3K",
+		"type": "webpage",
+		"title": "FG2017index",
+		"URL": "http://forumgeom.fau.edu/FG2017volume17/FG2017index.html",
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					12,
+					21
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4453783/items/9BMSHUZ6",
+		"type": "webpage",
+		"title": "FG201703index",
+		"URL": "http://forumgeom.fau.edu/FG2017volume17/FG201703index.html",
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					12,
+					21
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4453783/items/HPMAK3ZX",
+		"type": "webpage",
+		"title": "FG201819index",
+		"URL": "http://forumgeom.fau.edu/FG2019volume19/FG201901index.html",
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					12,
+					21
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4453783/items/KUCGPUJW",
+		"type": "article",
+		"title": "FG201901.pdf",
+		"URL": "http://forumgeom.fau.edu/FG2019volume19/FG201901.pdf",
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					12,
+					21
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/4453783/items/UXA9R4E2",
+		"type": "article-journal",
+		"abstract": "A research on the properties of the Golden structure (i.e. a polynomial structure with the structure polynomial Q(X)=X2-X-I) is carried out in this article. The Golden proportion plays a central role in this paper. The geometry of the Golden structure on a manifold is investigated by using a corresponding almost product structure.",
+		"container-title": "Chaos, Solitons & Fractals",
+		"DOI": "10.1016/j.chaos.2008.04.007",
+		"ISSN": "0960-0779",
+		"issue": "5",
+		"journalAbbreviation": "Chaos, Solitons & Fractals",
+		"language": "en",
+		"page": "1229-1238",
+		"source": "ScienceDirect",
+		"title": "Golden differential geometry",
+		"URL": "http://www.sciencedirect.com/science/article/pii/S0960077908001690",
+		"volume": "38",
+		"author": [
+			{
+				"family": "Crasmareanu",
+				"given": "Mircea"
+			},
+			{
+				"family": "Hreţcanu",
+				"given": "Cristina-Elena"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					12,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2008",
+					12,
+					1
+				]
+			]
+		}
+	}
+]
+}
