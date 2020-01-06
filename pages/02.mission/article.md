@@ -20,7 +20,7 @@ taxonomy:
 
 - seeking to understand the ordering principles of the universe
 
-===
+___
 
 **Seeking** Truth Through Divine Logic
 

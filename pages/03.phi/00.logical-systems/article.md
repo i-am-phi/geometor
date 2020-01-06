@@ -8,7 +8,7 @@ child_type: article
 
 - Phi emerges at the outset when exploring the simplest of logical relationships
 
-===
+___
 
 
 \[

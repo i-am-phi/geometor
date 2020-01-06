@@ -12,4 +12,4 @@ author: /home
 
 a collection of Golden Ratio section instances based on the root 2 proportion
 
-===
+___

@@ -50,7 +50,7 @@ menu: 'root 5'
 
 a collection of Golden Ratio section instances based on the root 5 proportion
 
-===
+___
 
 19 Golden Sections around the Root 5 construction
 

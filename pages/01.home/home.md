@@ -19,7 +19,7 @@ figure:
 - mission
 - call to action
 
-===
+___
 
 The GEOMETOR project is motivated by our sense of wonder
 

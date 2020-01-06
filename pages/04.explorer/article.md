@@ -23,7 +23,7 @@ taxonomy:
 
 **GEOMETOR Explorer** is an essential tool of the GEOMETOR Project.
 
-===
+___
 
 
 
@@ -141,7 +141,7 @@ Katex is used to render the algebraic expressions.
 
 The GEOMETOR Project is a collaborative effort to explore the architecture of all that is.
 
-===
+***
 
 Whether we look at the architecture of nature (matter) or the architecture of logic (mind) - a resonance emerges in the form of a simple proportion. Great philosophers and scientists throughout history, when encountering this proportion and its many attributes, felt a reverence - giving it names like the "Golden Ratio" and the "Divine Proportion."
 

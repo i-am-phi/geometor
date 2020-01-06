@@ -15,7 +15,7 @@ author: /home
 - Lucas Numbers
 - Binet's Forumal
 
-===
+___
 
 ## Arithmetic Progression
 

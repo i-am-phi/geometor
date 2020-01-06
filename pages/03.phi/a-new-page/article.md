@@ -8,7 +8,7 @@ child_type: article
 
 - some notes
 
-===
+___
 
 # test
 

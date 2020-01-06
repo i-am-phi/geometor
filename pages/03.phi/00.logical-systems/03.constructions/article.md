@@ -18,7 +18,7 @@ menu: Golden<br>Sections
 
 A Golden Section is the ratio of two segments within a construction where the proportion of their measures is PHI.
 
-===
+___
 
 ## Hunting Golden Sections
 

@@ -19,7 +19,7 @@ featured: false
 
 - A CIRCLE is a perpendicular relationship between two points
 
-===
+___
 
 In other words, A CIRCLE is a rotation of one point about the other.
 

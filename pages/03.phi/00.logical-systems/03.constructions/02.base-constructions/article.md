@@ -15,4 +15,4 @@ author: /home
 
 3 primary Golden Ratio section instances based on the root 5, root 3 and root2 proportions
 
-===
+___

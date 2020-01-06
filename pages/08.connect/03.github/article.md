@@ -8,4 +8,4 @@ child_type: article
 
 All the development code for GEOMETOR is here. As well as out content platform - PHOTON
 
-===
+___

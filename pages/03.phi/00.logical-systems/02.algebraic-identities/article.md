@@ -20,7 +20,7 @@ menu: 'Algebraic Identities'
 
 A study of the algebraic attributes and identities of the Divine Proportion
 
-===
+___
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
  <semantics>

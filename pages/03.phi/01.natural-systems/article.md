@@ -8,4 +8,4 @@ child_type: article
 
 - Phi emerges as the ordering principle in so many aspects of living things
 
-===
+___

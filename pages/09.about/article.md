@@ -17,4 +17,4 @@ child_type: article
 - education
 - discovery
 
-===
+___
