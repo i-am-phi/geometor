@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-# photon ✴
-# v0.1.2
-
-
 export PROJECT=geometor
 export LOCAL="http://$PROJECT.local"
 export SERVER="https://$PROJECT.com"
@@ -12,10 +8,6 @@ export PROJECT_DIR="/home/phi/SITES/$PROJECT"
 export THEMES_DIR="$PROJECT_DIR/user/themes"
 export PLUGINS_DIR="$PROJECT_DIR/user/plugins"
 export PORT="1111"
-
-source ~/.bash_profile
-source ~/.photon/.sync
-source ~/.photon/.photon
 
 alias swatch="sass --watch   \
   $THEMES_DIR/photon/scss:$THEMES_DIR/photon/css \
