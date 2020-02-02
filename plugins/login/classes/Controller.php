@@ -167,7 +167,9 @@ class Controller
                 $event->defMessage('PLUGIN_LOGIN.LOGIN_SUCCESSFUL', 'info');
 
                 $event->defRedirect(
-                    $this->grav['session']->redirect_after_login ?: $this->grav['uri']->referrer('/')
+                    $this->grav['session']->redirect_after_login ?:
+                        $this->grav['config']->get('plugins.login.redirect_after_login') ?:
+                            $this->grav['uri']->referrer('/')
                 );
             } else {
                 $login_route = $this->grav['config']->get('plugins.login.route');
@@ -351,7 +353,7 @@ class Controller
             $lang = '';
         }
 
-        $reset_link = $this->grav['base_url_absolute'] . $lang . $this->grav['config']->get('plugins.login.route_reset') . '/task:login.reset/token' . $param_sep . $token . '/user' . $param_sep . $user->username . '/nonce' . $param_sep . Utils::getNonce('reset-form');
+        $reset_link = $this->grav['base_url_absolute'] . $lang . $this->grav['config']->get('plugins.login.route_reset') . '/task' . $param_sep . 'login.reset/token' . $param_sep . $token . '/user' . $param_sep . $user->username . '/nonce' . $param_sep . Utils::getNonce('reset-form');
 
         $sitename = $this->grav['config']->get('site.title', 'Website');
 
