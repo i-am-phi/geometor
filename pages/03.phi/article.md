@@ -21,7 +21,7 @@ taxonomy:
 - golden ratio
 - extreme and mean ratio
 
-___
+===
 
 The Golden Ratio is a proportion of two unequal values a and b where
 

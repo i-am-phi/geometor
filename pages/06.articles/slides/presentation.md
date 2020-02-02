@@ -6,7 +6,7 @@ style:
 
 # the golden ratio
 
-___
+===
 
 \[
 \large

@@ -25,4 +25,4 @@ gallery:
             title: 'description 3'
 ---
 
-___
+===

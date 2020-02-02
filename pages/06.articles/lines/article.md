@@ -12,7 +12,7 @@ author: /home
 
 - A LINE is a proportion that is derived from the relationship of two points
 
-___
+===
 
 
 Proportion is relative to the baseline / grid

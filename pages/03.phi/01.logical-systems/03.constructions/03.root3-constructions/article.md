@@ -20,4 +20,4 @@ featured: false
 
 a collection of Golden Ratio section instances based on the root 5 proportion
 
-___
+===

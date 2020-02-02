@@ -8,5 +8,5 @@ child_type: article
 
 - the standard of logic for two thousand years
 
-___
+===
 

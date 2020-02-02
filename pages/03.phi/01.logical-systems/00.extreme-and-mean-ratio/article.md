@@ -17,7 +17,7 @@ figure:
 \]
 
 
-___
+===
 
 The Golden ratio is a geometric mean
 
