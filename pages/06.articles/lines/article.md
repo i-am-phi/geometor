@@ -44,7 +44,7 @@ c = ((${pt1.x}) * (${pt2.y})) - ((${pt2.x}) * (${pt1.y}))
 c
 eq = (a) * x + (b) * y + (c)
 eq
-`;
+;
 
 // run script and parse result
 // returns a, b, c, eq
