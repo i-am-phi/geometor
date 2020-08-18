@@ -6,6 +6,7 @@ author:
 taxonomies:
   - category
   - tag
+  - photon
 metadata:
   description: 'exploring the architecture of all that is'
 summary:
