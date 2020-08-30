@@ -3,18 +3,16 @@ title: PHI Φ
 subtitle: perfection in balance and growth
 menu: phi
 author: phi
-collection:
-  name: Articles
-  showCount: false
-  showMenu: false
+sets:
+    default:
+        name: Articles
+        showCount: true
+        showMenu: true
 content:
-  items: '@self.children'
-child_type: article
-figure:
-  image: phi-logo-dark.svg
+    items: '@self.children'
 taxonomy:
-  tag:
-    - showcase
+    photon:
+        - header
 ---
 
 - divine proportion

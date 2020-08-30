@@ -1,12 +1,14 @@
 ---
 title: Library
-author: /home
-collection:
-    name: Articles
-    showCount: false
-    showMenu: false
+sets:
+    default:
+        name: Resources
+        showCount: true
+        showMenu: true
 content:
     items: '@self.children'
-child_type: article
+taxonomy:
+    photon:
+        - header
 ---
 

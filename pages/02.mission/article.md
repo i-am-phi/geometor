@@ -1,19 +1,15 @@
 ---
 title: Mission
-author: /home
-collection:
-    name: Articles
-    showCount: false
-    showMenu: false
+sets:
+    default:
+        name: Goals
+        showCount: true
+        showMenu: true
 content:
     items: '@self.children'
-child_type: article
-figure:
-    image: image-000000117.png
-gallery:
-    show: true
 taxonomy:
-    tag:
+    photon:
+        - header
         - showcase
 ---
 
@@ -31,13 +27,9 @@ taxonomy:
 
 Exploring The Architecture of All That Is
 
-## test
-more text
-
 # Vision
 - create a platform for exploration
 
 
 # Plan
 
-slfjalsdkfj

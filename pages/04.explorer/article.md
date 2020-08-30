@@ -1,22 +1,16 @@
 ---
 title: Explorer
 subtitle: 'Hunting Golden Sections'
-author: /home
-collection:
-    name: Articles
-    showCount: false
-    showMenu: false
+sets:
+    default:
+        name: Articles
+        showCount: true
+        showMenu: true
 content:
     items: '@self.children'
-child_type: article
-figure:
-    image: root3.png
-gallery:
-    show: true
 taxonomy:
-    category:
-        # - algebra
-    tag:
+    photon:
+        - header
         - featured
 
 ---
