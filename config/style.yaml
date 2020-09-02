@@ -7,13 +7,13 @@ color:
     hueOffset: 0
   saturation: 27
   lightness:
-    lighter: 90
-    light: 75
+    lighter: 20
+    light: 40
     mid: 51
-    dark: 23
-    darker: 0
-  foreground: '#333'
-  background: '#F9F9F9'
+    dark: 70
+    darker: 90
+  foreground: '#EEE'
+  background: 'hsla(0, 0%, 0%, .5)'
 font: Lato
 font_display: Josefin+Sans
 font_code: monospace
