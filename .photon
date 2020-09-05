@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-export PROJECT=geometor
+export PROJECT=geometor.com
 export LOCAL="http://$PROJECT.local"
-export SERVER="https://$PROJECT.com"
-export SERVER_DIR="~/$PROJECT.com"
-export PROJECT_DIR="/home/phi/SITES/$PROJECT"
+export SERVER="https://$PROJECT"
+export SERVER_DIR="$SITESROOT/$PROJECT"
+export PROJECT_DIR="$SITESROOT/$PROJECT"
 export THEMES_DIR="$PROJECT_DIR/user/themes"
 export PLUGINS_DIR="$PROJECT_DIR/user/plugins"
 export PORT="1111"
