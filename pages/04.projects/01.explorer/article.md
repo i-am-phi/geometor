@@ -10,7 +10,6 @@ content:
     items: '@self.children'
 taxonomy:
     photon:
-        - header
         - featured
 
 ---

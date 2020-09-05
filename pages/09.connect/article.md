@@ -3,7 +3,9 @@ title: "Connect"
 subtitle: "message - join - support"
 content:
     items: '@self.children'
-child_type: article
+taxonomy:
+    photon:
+        - footer
 ---
 
 get and stay connected with the GEOMETOR project

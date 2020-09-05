@@ -12,7 +12,6 @@ content:
     items: '@self.children'
 taxonomy:
     photon:
-        - header
 ---
 
 - divine proportion
