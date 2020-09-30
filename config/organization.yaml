@@ -1,1 +1,6 @@
-name: test
+name: GEOMETOR
+owa:
+  siteId: 966594a8fb31bde819b2f9ec9210b821
+  trackPageView: true
+  trackCLicks: false
+  trackDomStream: false
