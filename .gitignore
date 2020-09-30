@@ -1,11 +1,9 @@
-data/tntsearch
 accounts/*.yaml
+data/tntsearch
+data/notifications
+config/security.yaml
+*/config/security.yaml
 
-# OS Generated
-.DS_Store*
-ehthumbs.db
-Icon?
-Thumbs.db
+node_modules
 *.swp
-.sass-cache
 tags
