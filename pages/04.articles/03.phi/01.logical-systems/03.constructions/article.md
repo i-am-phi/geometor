@@ -1,19 +1,16 @@
 ---
-title: Constructions
-subtitle: 'Searching for PHI within a system of structures.'
-author: /home
-collection:
-    name: Articles
-    showCount: false
-    showMenu: false
+title: Golden Sections
+subtitle: Geometric constructions which derive the Golden Ratio
 content:
+    title: Articles
     items: '@self.children'
     pagination: true
     limit: 10
-child_type: article
+taxonomy:
+    photon:
+        - featured
 figure:
     image: 032cg.svg
-menu: Golden<br>Sections
 ---
 
 A Golden Section is the ratio of two segments within a construction where the proportion of their measures is PHI.
