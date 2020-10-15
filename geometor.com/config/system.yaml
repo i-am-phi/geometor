@@ -80,8 +80,8 @@ cache:
   clear_images_by_default: true
   cli_compatibility: false
   lifetime: 604800
-  gzip: false
-  allow_webserver_gzip: false
+  gzip: true
+  allow_webserver_gzip: true
 twig:
   cache: true
   debug: true
