@@ -3,10 +3,12 @@ title: GEOMETOR
 subtitle: 'exploring the architecture of all that is'
 menu: home
 content:
-    title: Articles
-    showCount: false
-    showMenu: false
-    items: '@root.children'
+    title: 'Top Sections'
+    items: 
+        '@taxonomy.photon': header
+    order:
+        by: default
+        dir: asc
 figure:
     image: logo2.svg
 taxonomy:
