@@ -43,3 +43,6 @@
 [submodule "plugins/photon-mermaid"]
 	path = plugins/photon-mermaid
 	url = https://github.com/photon-platform/grav-plugin-photon-mermaid.git
+[submodule "plugins/photon-highlight"]
+	path = plugins/photon-highlight
+	url = https://github.com/photon-platform/grav-plugin-photon-highlight
