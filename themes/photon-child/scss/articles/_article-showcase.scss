@@ -64,10 +64,10 @@ article.showcase {
     // align-self: flex-end;
   }
 
-  @include media-bp(3) {
-    font-size: 1.2em;
-  }
-  @include media-bp(5) {
-    font-size: 1.4em;
-  }
+  // @include media-bp(3) {
+    // font-size: 1.2em;
+  // }
+  // @include media-bp(5) {
+    // font-size: 1.4em;
+  // }
 }
