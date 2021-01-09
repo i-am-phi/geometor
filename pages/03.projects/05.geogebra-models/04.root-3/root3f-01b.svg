@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+
+<svg 
+     version="1.1"
+     baseProfile="full"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:ev="http://www.w3.org/2001/xml-events"
+     width="45.15555555555555cm"
+     height="27.975277777777777cm"
+     viewBox="0 0 1316 815"
+     >
+<title>
+
+</title>
+<g stroke-linejoin="miter" stroke-dashoffset="0.0000" stroke-dasharray="none" stroke-width="1.0000" stroke-miterlimit="10.000" stroke-linecap="square">
+<g id="misc">
+</g><!-- misc -->
+<g id="layer0">
+</g><!-- layer0 -->
+<g id="layer1">
+</g><!-- layer1 -->
+<g id="layer2">
+</g><!-- layer2 -->
+<g id="layer3">
+</g><!-- layer3 -->
+<g id="layer4">
+</g><!-- layer4 -->
+<g id="layer5">
+</g><!-- layer5 -->
+<g id="layer6">
+</g><!-- layer6 -->
+<g id="layer7">
+</g><!-- layer7 -->
+<g id="layer8">
+</g><!-- layer8 -->
+<g id="layer9">
+<clipPath id="clip69e92d03-a105-4298-ae48-0fe66311243e">
+  <path d="M 0.0000 0.0000 L 0.0000 816.00 L 1316.0 816.00 L 1316.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip1)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#000000">
+  <path d="M 531.39 342.19 C 531.39 344.95 529.15 347.19 526.39 347.19 C 523.63 347.19 521.39 344.95 521.39 342.19 C 521.39 339.43 523.63 337.19 526.39 337.19 C 529.15 337.19 531.39 339.43 531.39 342.19 z"/>
+<title>Point A</title>
+<desc>Point A: Point on xAxis</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip1 -->
+<clipPath id="clipca868e53-dba9-43f2-9939-821ff044da1a">
+  <path d="M 0.0000 0.0000 L 0.0000 816.00 L 1316.0 816.00 L 1316.0 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip2)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#000000">
+  <path d="M 794.61 342.19 C 794.61 344.95 792.37 347.19 789.61 347.19 C 786.85 347.19 784.61 344.95 784.61 342.19 C 784.61 339.43 786.85 337.19 789.61 337.19 C 792.37 337.19 794.61 339.43 794.61 342.19 z"/>
+<title>Point B</title>
+<desc>Point B: Point on xAxis</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip2 -->
+</g><!-- layer9 -->
+<defs>
+
+</defs> <!-- font definitions -->
+</g> <!-- default stroke -->
+</svg> <!-- bounding box -->

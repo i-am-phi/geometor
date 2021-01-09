@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<title>GeoGebra - Construction Protocol</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></head>
+<body>
+<table border="1">
+<tr>
+<th>No.</th>
+<th>Name</th>
+<th>Description</th>
+<th>Value</th>
+<th>Caption</th>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#DC0000">1</span></td>
+<td><span style="color:#DC0000">Button fit</span></td>
+<td>&nbsp;</td>
+<td><span style="color:#DC0000">fit</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">2</span></td>
+<td><span style="color:#545454">Point α</span></td>
+<td>&nbsp;</td>
+<td><span style="color:#545454">α = (-0.5, 0)</span></td>
+<td><span style="color:#545454">initial given point</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">3</span></td>
+<td><span style="color:#545454">Point β</span></td>
+<td>&nbsp;</td>
+<td><span style="color:#545454">β = (0.5, 0)</span></td>
+<td><span style="color:#545454">initial given point</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">4</span></td>
+<td><span style="color:#545454">Line i01</span></td>
+<td><span style="color:#545454">Line &#945;, &#946;</span></td>
+<td><span style="color:#545454">i01: y = 0</span></td>
+<td><span style="color:#545454">baseline</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">5</span></td>
+<td><span style="color:#AA1144">Segment s01</span></td>
+<td><span style="color:#AA1144">Segment &#945;, &#946;</span></td>
+<td><span style="color:#AA1144">s01 = 1</span></td>
+<td><span style="color:#AA1144">unit segment</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">6</span></td>
+<td><span style="color:#545454">Circle c01</span></td>
+<td><span style="color:#545454">Circle through &#946; with center &#945;</span></td>
+<td><span style="color:#545454">c01: (x + 0.5)² + y² = 1</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">7</span></td>
+<td><span style="color:#545454">Circle c02</span></td>
+<td><span style="color:#545454">Circle through &#945; with center &#946;</span></td>
+<td><span style="color:#545454">c02: (x - 0.5)² + y² = 1</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">8</span></td>
+<td><span style="color:#545454">Point p02</span></td>
+<td><span style="color:#545454">Intersection point of c01, c02</span></td>
+<td><span style="color:#545454">p02 = (0, 0.86603)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">9</span></td>
+<td><span style="color:#545454">Point p01</span></td>
+<td><span style="color:#545454">Intersection point of c01, c02</span></td>
+<td><span style="color:#545454">p01 = (0, -0.86603)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">10</span></td>
+<td><span style="color:#AA1144">Triangle t1</span></td>
+<td><span style="color:#AA1144">Polygon p02, &#945;, &#946;</span></td>
+<td><span style="color:#AA1144">t1 = 0.43301</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">11</span></td>
+<td><span style="color:#AA1144">Segment t1c</span></td>
+<td><span style="color:#AA1144">Segment p02, &#945;</span></td>
+<td><span style="color:#AA1144">t1c = 1</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">12</span></td>
+<td><span style="color:#AA1144">Segment t1b</span></td>
+<td><span style="color:#AA1144">Segment &#945;, &#946;</span></td>
+<td><span style="color:#AA1144">t1b = 1</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">13</span></td>
+<td><span style="color:#AA1144">Segment t1a</span></td>
+<td><span style="color:#AA1144">Segment &#946;, p02</span></td>
+<td><span style="color:#AA1144">t1a = 1</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">14</span></td>
+<td><span style="color:#545454">Line i02</span></td>
+<td><span style="color:#545454">Line p02, p01</span></td>
+<td><span style="color:#545454">i02: x = 0</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">15</span></td>
+<td><span style="color:#545454">Point p03</span></td>
+<td><span style="color:#545454">Intersection of i01 and i02</span></td>
+<td><span style="color:#545454">p03 = (0, 0)</span></td>
+<td><span style="color:#545454">midpoint</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">16</span></td>
+<td><span style="color:#AA1144">Line i03</span></td>
+<td><span style="color:#AA1144">Line &#945;, p02</span></td>
+<td><span style="color:#AA1144">i03: -0.86603x + 0.5y = 0.43301</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">17</span></td>
+<td><span style="color:#AA1144">Line i04</span></td>
+<td><span style="color:#AA1144">Line &#946;, p02</span></td>
+<td><span style="color:#AA1144">i04: -0.86603x - 0.5y = -0.43301</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">18</span></td>
+<td><span style="color:#AA1144">Line i05</span></td>
+<td><span style="color:#AA1144">Line &#945;, p01</span></td>
+<td><span style="color:#AA1144">i05: 0.86603x + 0.5y = -0.43301</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">19</span></td>
+<td><span style="color:#AA1144">Line i06</span></td>
+<td><span style="color:#AA1144">Line &#946;, p01</span></td>
+<td><span style="color:#AA1144">i06: 0.86603x - 0.5y = 0.43301</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">20</span></td>
+<td><span style="color:#545454">Point p04</span></td>
+<td><span style="color:#545454">Intersection of c01 and i05</span></td>
+<td><span style="color:#545454">p04 = (-1, 0.86603)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">21</span></td>
+<td><span style="color:#545454">Point p05</span></td>
+<td><span style="color:#545454">Intersection of c02 and i06</span></td>
+<td><span style="color:#545454">p05 = (1, 0.86603)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">22</span></td>
+<td><span style="color:#545454">Point p06</span></td>
+<td><span style="color:#545454">Intersection of c02 and i04</span></td>
+<td><span style="color:#545454">p06 = (1, -0.86603)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">23</span></td>
+<td><span style="color:#545454">Point p07</span></td>
+<td><span style="color:#545454">Intersection of c01 and i03</span></td>
+<td><span style="color:#545454">p07 = (-1, -0.86603)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">24</span></td>
+<td><span style="color:#AA1144">Line i07</span></td>
+<td><span style="color:#AA1144">Line p04, p05</span></td>
+<td><span style="color:#AA1144">i07: y = 0.86603</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">25</span></td>
+<td><span style="color:#AA1144">Line i08</span></td>
+<td><span style="color:#AA1144">Line p07, p06</span></td>
+<td><span style="color:#AA1144">i08: y = -0.86603</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">26</span></td>
+<td><span style="color:#AA1144">Triangle t3</span></td>
+<td><span style="color:#AA1144">Polygon p07, p06, p02</span></td>
+<td><span style="color:#AA1144">t3 = 1.73205</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">27</span></td>
+<td><span style="color:#AA1144">Segment t3a</span></td>
+<td><span style="color:#AA1144">Segment p07, p06</span></td>
+<td><span style="color:#AA1144">t3a = 2</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">28</span></td>
+<td><span style="color:#AA1144">Segment t3c</span></td>
+<td><span style="color:#AA1144">Segment p06, p02</span></td>
+<td><span style="color:#AA1144">t3c = 2</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">29</span></td>
+<td><span style="color:#AA1144">Segment t3b</span></td>
+<td><span style="color:#AA1144">Segment p02, p07</span></td>
+<td><span style="color:#AA1144">t3b = 2</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">30</span></td>
+<td><span style="color:#AA1144">Line i09</span></td>
+<td><span style="color:#AA1144">Line &#945;, p06</span></td>
+<td><span style="color:#AA1144">i09: 0.86603x + 1.5y = -0.43301</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">31</span></td>
+<td><span style="color:#AA1144">Line i10</span></td>
+<td><span style="color:#AA1144">Line p07, &#946;</span></td>
+<td><span style="color:#AA1144">i10: -0.86603x + 1.5y = -0.43301</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">32</span></td>
+<td><span style="color:#545454">Point p08</span></td>
+<td><span style="color:#545454">Intersection of i02 and i09</span></td>
+<td><span style="color:#545454">p08 = (0, -0.28868)</span></td>
+<td><span style="color:#545454">ceenter of triangle</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">33</span></td>
+<td><span style="color:#AA1144">Segment r01</span></td>
+<td><span style="color:#AA1144">Segment p08, p06</span></td>
+<td><span style="color:#AA1144">r01 = 1.1547</span></td>
+<td><span style="color:#AA1144">radius of triangle</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">34</span></td>
+<td><span style="color:#AA1144">Circle c03</span></td>
+<td><span style="color:#AA1144">Circle through p06 with center p08</span></td>
+<td><span style="color:#AA1144">c03: x² + (y + 0.28868)² = 1.33333</span></td>
+<td><span style="color:#AA1144">circumscribe</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">35</span></td>
+<td><span style="color:#545454">Point p10</span></td>
+<td><span style="color:#545454">Intersection point of c03, i01</span></td>
+<td><span style="color:#545454">p10 = (-1.11803, 0)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">36</span></td>
+<td><span style="color:#545454">Point p09</span></td>
+<td><span style="color:#545454">Intersection point of c03, i01</span></td>
+<td><span style="color:#545454">p09 = (1.11803, 0)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">37</span></td>
+<td><span style="color:#9A6700">Segment g0201a1</span></td>
+<td><span style="color:#9A6700">sectionABA(p10, &#945;, &#946;, p09)</span></td>
+<td><span style="color:#9A6700">g0201a1 = 0.61803</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">38</span></td>
+<td><span style="color:#9A6700">Segment g0201b</span></td>
+<td><span style="color:#9A6700">sectionABA(p10, &#945;, &#946;, p09)</span></td>
+<td><span style="color:#9A6700">g0201b = 1</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">39</span></td>
+<td><span style="color:#9A6700">Segment g0201a2</span></td>
+<td><span style="color:#9A6700">sectionABA(p10, &#945;, &#946;, p09)</span></td>
+<td><span style="color:#9A6700">g0201a2 = 0.61803</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">40</span></td>
+<td><span style="color:#966E00">Number g0201ab</span></td>
+<td><span style="color:#966E00">sectionABA(p10, &#945;, &#946;, p09)</span></td>
+<td><span style="color:#966E00">g0201ab = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">41</span></td>
+<td><span style="color:#966E00">Number g0201ba</span></td>
+<td><span style="color:#966E00">sectionABA(p10, &#945;, &#946;, p09)</span></td>
+<td><span style="color:#966E00">g0201ba = 1.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">42</span></td>
+<td><span style="color:#545454">Point p11</span></td>
+<td><span style="color:#545454">Intersection of c03 and i05</span></td>
+<td><span style="color:#545454">p11 = (-0.80902, 0.53523)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">43</span></td>
+<td><span style="color:#545454">Point p12</span></td>
+<td><span style="color:#545454">Intersection of c03 and i06</span></td>
+<td><span style="color:#545454">p12 = (0.80902, 0.53523)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">44</span></td>
+<td><span style="color:#545454">Point p13</span></td>
+<td><span style="color:#545454">Intersection of c03 and i05</span></td>
+<td><span style="color:#545454">p13 = (0.30902, -1.40126)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">45</span></td>
+<td><span style="color:#545454">Point p13a</span></td>
+<td><span style="color:#545454">Intersection of c03 and i06</span></td>
+<td><span style="color:#545454">p13a = (-0.30902, -1.40126)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">46</span></td>
+<td><span style="color:#9A6700">Segment g0202a1</span></td>
+<td><span style="color:#9A6700">sectionABA(p11, &#945;, p01, p13)</span></td>
+<td><span style="color:#9A6700">g0202a1 = 0.61803</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">47</span></td>
+<td><span style="color:#9A6700">Segment g0202b</span></td>
+<td><span style="color:#9A6700">sectionABA(p11, &#945;, p01, p13)</span></td>
+<td><span style="color:#9A6700">g0202b = 1</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">48</span></td>
+<td><span style="color:#9A6700">Segment g0202a2</span></td>
+<td><span style="color:#9A6700">sectionABA(p11, &#945;, p01, p13)</span></td>
+<td><span style="color:#9A6700">g0202a2 = 0.61803</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">49</span></td>
+<td><span style="color:#966E00">Number g0202ab</span></td>
+<td><span style="color:#966E00">sectionABA(p11, &#945;, p01, p13)</span></td>
+<td><span style="color:#966E00">g0202ab = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">50</span></td>
+<td><span style="color:#966E00">Number g0202ba</span></td>
+<td><span style="color:#966E00">sectionABA(p11, &#945;, p01, p13)</span></td>
+<td><span style="color:#966E00">g0202ba = 1.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">51</span></td>
+<td><span style="color:#9A6700">Segment g0203a1</span></td>
+<td><span style="color:#9A6700">sectionABA(p13a, p01, &#946;, p12)</span></td>
+<td><span style="color:#9A6700">g0203a1 = 0.61803</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">52</span></td>
+<td><span style="color:#9A6700">Segment g0203b</span></td>
+<td><span style="color:#9A6700">sectionABA(p13a, p01, &#946;, p12)</span></td>
+<td><span style="color:#9A6700">g0203b = 1</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">53</span></td>
+<td><span style="color:#9A6700">Segment g0203a2</span></td>
+<td><span style="color:#9A6700">sectionABA(p13a, p01, &#946;, p12)</span></td>
+<td><span style="color:#9A6700">g0203a2 = 0.61803</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">54</span></td>
+<td><span style="color:#966E00">Number g0203ab</span></td>
+<td><span style="color:#966E00">sectionABA(p13a, p01, &#946;, p12)</span></td>
+<td><span style="color:#966E00">g0203ab = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">55</span></td>
+<td><span style="color:#966E00">Number g0203ba</span></td>
+<td><span style="color:#966E00">sectionABA(p13a, p01, &#946;, p12)</span></td>
+<td><span style="color:#966E00">g0203ba = 1.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">56</span></td>
+<td><span style="color:#AA1144">Line i11</span></td>
+<td><span style="color:#AA1144">Line p11, p12</span></td>
+<td><span style="color:#AA1144">i11: y = 0.53523</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">57</span></td>
+<td><span style="color:#AA1144">Line i12</span></td>
+<td><span style="color:#AA1144">Line p10, p13a</span></td>
+<td><span style="color:#AA1144">i12: 1.40126x + 0.80902y = -1.56665</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">58</span></td>
+<td><span style="color:#AA1144">Line i13</span></td>
+<td><span style="color:#AA1144">Line p13, p09</span></td>
+<td><span style="color:#AA1144">i13: -1.40126x + 0.80902y = -1.56665</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">59</span></td>
+<td><span style="color:#545454">Point p14</span></td>
+<td><span style="color:#545454">Intersection of i11 and i03</span></td>
+<td><span style="color:#545454">p14 = (-0.19098, 0.53523)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#555555">60</span></td>
+<td><span style="color:#555555">Point p15</span></td>
+<td><span style="color:#555555">Intersection of i04 and i11</span></td>
+<td><span style="color:#555555">p15 = (0.19098, 0.53523)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">61</span></td>
+<td><span style="color:#9A6700">Segment g0301b1</span></td>
+<td><span style="color:#9A6700">sectionBAB(p11, p14, p15, p12)</span></td>
+<td><span style="color:#9A6700">g0301b1 = 0.61803</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">62</span></td>
+<td><span style="color:#9A6700">Segment g0301a</span></td>
+<td><span style="color:#9A6700">sectionBAB(p11, p14, p15, p12)</span></td>
+<td><span style="color:#9A6700">g0301a = 0.38197</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">63</span></td>
+<td><span style="color:#9A6700">Segment g0301b2</span></td>
+<td><span style="color:#9A6700">sectionBAB(p11, p14, p15, p12)</span></td>
+<td><span style="color:#9A6700">g0301b2 = 0.61803</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">64</span></td>
+<td><span style="color:#966E00">Number g0301ba</span></td>
+<td><span style="color:#966E00">sectionBAB(p11, p14, p15, p12)</span></td>
+<td><span style="color:#966E00">g0301ba = 1.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">65</span></td>
+<td><span style="color:#966E00">Number g0301ab</span></td>
+<td><span style="color:#966E00">sectionBAB(p11, p14, p15, p12)</span></td>
+<td><span style="color:#966E00">g0301ab = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#555555">66</span></td>
+<td><span style="color:#555555">Point p16</span></td>
+<td><span style="color:#555555">Intersection of i12 and i03</span></td>
+<td><span style="color:#555555">p16 = (-0.80902, -0.53523)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#555555">67</span></td>
+<td><span style="color:#555555">Point p17</span></td>
+<td><span style="color:#555555">Intersection of i12 and i08</span></td>
+<td><span style="color:#555555">p17 = (-0.61803, -0.86603)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#555555">68</span></td>
+<td><span style="color:#555555">Point p18</span></td>
+<td><span style="color:#555555">Intersection of i08 and i13</span></td>
+<td><span style="color:#555555">p18 = (0.61803, -0.86603)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#555555">69</span></td>
+<td><span style="color:#555555">Point p19</span></td>
+<td><span style="color:#555555">Intersection of i04 and i13</span></td>
+<td><span style="color:#555555">p19 = (0.80902, -0.53523)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">70</span></td>
+<td><span style="color:#9A6700">Segment g0302b1</span></td>
+<td><span style="color:#9A6700">sectionBAB(p10, p16, p17, p13a)</span></td>
+<td><span style="color:#9A6700">g0302b1 = 0.61803</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">71</span></td>
+<td><span style="color:#9A6700">Segment g0302a</span></td>
+<td><span style="color:#9A6700">sectionBAB(p10, p16, p17, p13a)</span></td>
+<td><span style="color:#9A6700">g0302a = 0.38197</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">72</span></td>
+<td><span style="color:#9A6700">Segment g0302b2</span></td>
+<td><span style="color:#9A6700">sectionBAB(p10, p16, p17, p13a)</span></td>
+<td><span style="color:#9A6700">g0302b2 = 0.61803</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">73</span></td>
+<td><span style="color:#966E00">Number g0302ab</span></td>
+<td><span style="color:#966E00">sectionBAB(p10, p16, p17, p13a)</span></td>
+<td><span style="color:#966E00">g0302ab = 1.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">74</span></td>
+<td><span style="color:#966E00">Number g0302ba</span></td>
+<td><span style="color:#966E00">sectionBAB(p10, p16, p17, p13a)</span></td>
+<td><span style="color:#966E00">g0302ba = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">75</span></td>
+<td><span style="color:#9A6700">Segment g0303b1</span></td>
+<td><span style="color:#9A6700">sectionBAB(p13, p18, p19, p09)</span></td>
+<td><span style="color:#9A6700">g0303b1 = 0.61803</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">76</span></td>
+<td><span style="color:#9A6700">Segment g0303a</span></td>
+<td><span style="color:#9A6700">sectionBAB(p13, p18, p19, p09)</span></td>
+<td><span style="color:#9A6700">g0303a = 0.38197</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">77</span></td>
+<td><span style="color:#9A6700">Segment g0303b2</span></td>
+<td><span style="color:#9A6700">sectionBAB(p13, p18, p19, p09)</span></td>
+<td><span style="color:#9A6700">g0303b2 = 0.61803</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">78</span></td>
+<td><span style="color:#966E00">Number g0303ab</span></td>
+<td><span style="color:#966E00">sectionBAB(p13, p18, p19, p09)</span></td>
+<td><span style="color:#966E00">g0303ab = 1.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">79</span></td>
+<td><span style="color:#966E00">Number g0303ba</span></td>
+<td><span style="color:#966E00">sectionBAB(p13, p18, p19, p09)</span></td>
+<td><span style="color:#966E00">g0303ba = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">80</span></td>
+<td><span style="color:#9A6700">Segment g0401a</span></td>
+<td><span style="color:#9A6700">sectionAB(p02, p14, &#945;)</span></td>
+<td><span style="color:#9A6700">g0401a = 0.38197</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">81</span></td>
+<td><span style="color:#9A6700">Segment g0401b</span></td>
+<td><span style="color:#9A6700">sectionAB(p02, p14, &#945;)</span></td>
+<td><span style="color:#9A6700">g0401b = 0.61803</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">82</span></td>
+<td><span style="color:#966E00">Number g0401</span></td>
+<td><span style="color:#966E00">sectionAB(p02, p14, &#945;)</span></td>
+<td><span style="color:#966E00">g0401 = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">83</span></td>
+<td><span style="color:#9A6700">Segment g0402a</span></td>
+<td><span style="color:#9A6700">sectionAB(p02, p15, &#946;)</span></td>
+<td><span style="color:#9A6700">g0402a = 0.38197</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">84</span></td>
+<td><span style="color:#9A6700">Segment g0402b</span></td>
+<td><span style="color:#9A6700">sectionAB(p02, p15, &#946;)</span></td>
+<td><span style="color:#9A6700">g0402b = 0.61803</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">85</span></td>
+<td><span style="color:#966E00">Number g0402</span></td>
+<td><span style="color:#966E00">sectionAB(p02, p15, &#946;)</span></td>
+<td><span style="color:#966E00">g0402 = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">86</span></td>
+<td><span style="color:#9A6700">Segment g0403a</span></td>
+<td><span style="color:#9A6700">sectionAB(p06, p19, &#946;)</span></td>
+<td><span style="color:#9A6700">g0403a = 0.38197</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">87</span></td>
+<td><span style="color:#9A6700">Segment g0403b</span></td>
+<td><span style="color:#9A6700">sectionAB(p06, p19, &#946;)</span></td>
+<td><span style="color:#9A6700">g0403b = 0.61803</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">88</span></td>
+<td><span style="color:#966E00">Number g0403</span></td>
+<td><span style="color:#966E00">sectionAB(p06, p19, &#946;)</span></td>
+<td><span style="color:#966E00">g0403 = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">89</span></td>
+<td><span style="color:#9A6700">Segment g0404a</span></td>
+<td><span style="color:#9A6700">sectionAB(p06, p18, p01)</span></td>
+<td><span style="color:#9A6700">g0404a = 0.38197</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">90</span></td>
+<td><span style="color:#9A6700">Segment g0404b</span></td>
+<td><span style="color:#9A6700">sectionAB(p06, p18, p01)</span></td>
+<td><span style="color:#9A6700">g0404b = 0.61803</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">91</span></td>
+<td><span style="color:#966E00">Number g0404</span></td>
+<td><span style="color:#966E00">sectionAB(p06, p18, p01)</span></td>
+<td><span style="color:#966E00">g0404 = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">92</span></td>
+<td><span style="color:#9A6700">Segment g0405a</span></td>
+<td><span style="color:#9A6700">sectionAB(p07, p17, p01)</span></td>
+<td><span style="color:#9A6700">g0405a = 0.38197</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">93</span></td>
+<td><span style="color:#9A6700">Segment g0405b</span></td>
+<td><span style="color:#9A6700">sectionAB(p07, p17, p01)</span></td>
+<td><span style="color:#9A6700">g0405b = 0.61803</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">94</span></td>
+<td><span style="color:#966E00">Number g0405</span></td>
+<td><span style="color:#966E00">sectionAB(p07, p17, p01)</span></td>
+<td><span style="color:#966E00">g0405 = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">95</span></td>
+<td><span style="color:#9A6700">Segment g0406a</span></td>
+<td><span style="color:#9A6700">sectionAB(p07, p16, &#945;)</span></td>
+<td><span style="color:#9A6700">g0406a = 0.38197</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">96</span></td>
+<td><span style="color:#9A6700">Segment g0406b</span></td>
+<td><span style="color:#9A6700">sectionAB(p07, p16, &#945;)</span></td>
+<td><span style="color:#9A6700">g0406b = 0.61803</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">97</span></td>
+<td><span style="color:#966E00">Number g0406</span></td>
+<td><span style="color:#966E00">sectionAB(p07, p16, &#945;)</span></td>
+<td><span style="color:#966E00">g0406 = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">98</span></td>
+<td><span style="color:#AA1144">Line i14</span></td>
+<td><span style="color:#AA1144">Line p10, p02</span></td>
+<td><span style="color:#AA1144">i14: -0.86603x + 1.11803y = 0.96825</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">99</span></td>
+<td><span style="color:#AA1144">Line t</span></td>
+<td><span style="color:#AA1144">Line p09, p02</span></td>
+<td><span style="color:#AA1144">t: -0.86603x - 1.11803y = -0.96825</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#555555">100</span></td>
+<td><span style="color:#555555">Point p20</span></td>
+<td><span style="color:#555555">Intersection of i11 and i14</span></td>
+<td><span style="color:#555555">p20 = (-0.42705, 0.53523)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#555555">101</span></td>
+<td><span style="color:#555555">Point p21</span></td>
+<td><span style="color:#555555">Intersection of i11 and t</span></td>
+<td><span style="color:#555555">p21 = (0.42705, 0.53523)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#555555">102</span></td>
+<td><span style="color:#555555">Point p22</span></td>
+<td><span style="color:#555555">Intersection of i14 and i05</span></td>
+<td><span style="color:#555555">p22 = (-0.69098, 0.33079)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#555555">103</span></td>
+<td><span style="color:#555555">Point p23</span></td>
+<td><span style="color:#555555">Intersection of i06 and t</span></td>
+<td><span style="color:#555555">p23 = (0.69098, 0.33079)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">104</span></td>
+<td><span style="color:#9A6700">Segment g0501a</span></td>
+<td><span style="color:#9A6700">sectionAB(p11, p22, &#945;)</span></td>
+<td><span style="color:#9A6700">g0501a = 0.23607</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">105</span></td>
+<td><span style="color:#9A6700">Segment g0501b</span></td>
+<td><span style="color:#9A6700">sectionAB(p11, p22, &#945;)</span></td>
+<td><span style="color:#9A6700">g0501b = 0.38197</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">106</span></td>
+<td><span style="color:#966E00">Number g0501</span></td>
+<td><span style="color:#966E00">sectionAB(p11, p22, &#945;)</span></td>
+<td><span style="color:#966E00">g0501 = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">107</span></td>
+<td><span style="color:#9A6700">Segment g0502a</span></td>
+<td><span style="color:#9A6700">sectionAB(p12, p23, &#946;)</span></td>
+<td><span style="color:#9A6700">g0502a = 0.23607</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">108</span></td>
+<td><span style="color:#9A6700">Segment g0502b</span></td>
+<td><span style="color:#9A6700">sectionAB(p12, p23, &#946;)</span></td>
+<td><span style="color:#9A6700">g0502b = 0.38197</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">109</span></td>
+<td><span style="color:#966E00">Number g0502</span></td>
+<td><span style="color:#966E00">sectionAB(p12, p23, &#946;)</span></td>
+<td><span style="color:#966E00">g0502 = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">110</span></td>
+<td><span style="color:#9A6700">Segment g0601a</span></td>
+<td><span style="color:#9A6700">sectionAB(p14, p20, p11)</span></td>
+<td><span style="color:#9A6700">g0601a = 0.23607</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">111</span></td>
+<td><span style="color:#9A6700">Segment g0601b</span></td>
+<td><span style="color:#9A6700">sectionAB(p14, p20, p11)</span></td>
+<td><span style="color:#9A6700">g0601b = 0.38197</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">112</span></td>
+<td><span style="color:#966E00">Number g0601</span></td>
+<td><span style="color:#966E00">sectionAB(p14, p20, p11)</span></td>
+<td><span style="color:#966E00">g0601 = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">113</span></td>
+<td><span style="color:#9A6700">Segment g0602a</span></td>
+<td><span style="color:#9A6700">sectionAB(p15, p21, p12)</span></td>
+<td><span style="color:#9A6700">g0602a = 0.23607</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">114</span></td>
+<td><span style="color:#9A6700">Segment g0602b</span></td>
+<td><span style="color:#9A6700">sectionAB(p15, p21, p12)</span></td>
+<td><span style="color:#9A6700">g0602b = 0.38197</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">115</span></td>
+<td><span style="color:#966E00">Number g0602</span></td>
+<td><span style="color:#966E00">sectionAB(p15, p21, p12)</span></td>
+<td><span style="color:#966E00">g0602 = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">116</span></td>
+<td><span style="color:#9A6700">Segment g0701b2</span></td>
+<td><span style="color:#9A6700">sectionBAB(p10, p22, p20, p02)</span></td>
+<td><span style="color:#9A6700">g0701b2 = 0.54018</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">117</span></td>
+<td><span style="color:#9A6700">Segment g0701a</span></td>
+<td><span style="color:#9A6700">sectionBAB(p10, p22, p20, p02)</span></td>
+<td><span style="color:#9A6700">g0701a = 0.33385</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">118</span></td>
+<td><span style="color:#9A6700">Segment g0701b1</span></td>
+<td><span style="color:#9A6700">sectionBAB(p10, p22, p20, p02)</span></td>
+<td><span style="color:#9A6700">g0701b1 = 0.54018</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">119</span></td>
+<td><span style="color:#966E00">Number g0701ba</span></td>
+<td><span style="color:#966E00">sectionBAB(p10, p22, p20, p02)</span></td>
+<td><span style="color:#966E00">g0701ba = 1.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">120</span></td>
+<td><span style="color:#966E00">Number g0701ab</span></td>
+<td><span style="color:#966E00">sectionBAB(p10, p22, p20, p02)</span></td>
+<td><span style="color:#966E00">g0701ab = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">121</span></td>
+<td><span style="color:#9A6700">Segment g0702b2</span></td>
+<td><span style="color:#9A6700">sectionBAB(p02, p21, p23, p09)</span></td>
+<td><span style="color:#9A6700">g0702b2 = 0.54018</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">122</span></td>
+<td><span style="color:#9A6700">Segment g0702a</span></td>
+<td><span style="color:#9A6700">sectionBAB(p02, p21, p23, p09)</span></td>
+<td><span style="color:#9A6700">g0702a = 0.33385</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">123</span></td>
+<td><span style="color:#9A6700">Segment g0702b1</span></td>
+<td><span style="color:#9A6700">sectionBAB(p02, p21, p23, p09)</span></td>
+<td><span style="color:#9A6700">g0702b1 = 0.54018</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">124</span></td>
+<td><span style="color:#966E00">Number g0702ba</span></td>
+<td><span style="color:#966E00">sectionBAB(p02, p21, p23, p09)</span></td>
+<td><span style="color:#966E00">g0702ba = 1.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">125</span></td>
+<td><span style="color:#966E00">Number g0702ab</span></td>
+<td><span style="color:#966E00">sectionBAB(p02, p21, p23, p09)</span></td>
+<td><span style="color:#966E00">g0702ab = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">126</span></td>
+<td><span style="color:#545454">Point p24</span></td>
+<td><span style="color:#545454">Intersection of i09 and i14</span></td>
+<td><span style="color:#545454">p24 = (-0.8541, 0.20444)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">127</span></td>
+<td><span style="color:#9A6700">Segment g0901b2</span></td>
+<td><span style="color:#9A6700">sectionBAB(p10, p24, p22, p20)</span></td>
+<td><span style="color:#9A6700">g0901b2 = 0.33385</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">128</span></td>
+<td><span style="color:#9A6700">Segment g0901a</span></td>
+<td><span style="color:#9A6700">sectionBAB(p10, p24, p22, p20)</span></td>
+<td><span style="color:#9A6700">g0901a = 0.20633</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">129</span></td>
+<td><span style="color:#9A6700">Segment g0901b1</span></td>
+<td><span style="color:#9A6700">sectionBAB(p10, p24, p22, p20)</span></td>
+<td><span style="color:#9A6700">g0901b1 = 0.33385</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">130</span></td>
+<td><span style="color:#966E00">Number g0901ba</span></td>
+<td><span style="color:#966E00">sectionBAB(p10, p24, p22, p20)</span></td>
+<td><span style="color:#966E00">g0901ba = 1.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">131</span></td>
+<td><span style="color:#966E00">Number g0901ab</span></td>
+<td><span style="color:#966E00">sectionBAB(p10, p24, p22, p20)</span></td>
+<td><span style="color:#966E00">g0901ab = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">132</span></td>
+<td><span style="color:#545454">Point p25</span></td>
+<td><span style="color:#545454">Intersection of t and i10</span></td>
+<td><span style="color:#545454">p25 = (0.8541, 0.20444)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">133</span></td>
+<td><span style="color:#9A6700">Segment g1001b2</span></td>
+<td><span style="color:#9A6700">sectionBAB(p21, p23, p25, p09)</span></td>
+<td><span style="color:#9A6700">g1001b2 = 0.33385</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">134</span></td>
+<td><span style="color:#9A6700">Segment g1001a</span></td>
+<td><span style="color:#9A6700">sectionBAB(p21, p23, p25, p09)</span></td>
+<td><span style="color:#9A6700">g1001a = 0.20633</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">135</span></td>
+<td><span style="color:#9A6700">Segment g1001b1</span></td>
+<td><span style="color:#9A6700">sectionBAB(p21, p23, p25, p09)</span></td>
+<td><span style="color:#9A6700">g1001b1 = 0.33385</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">136</span></td>
+<td><span style="color:#966E00">Number g1001ba</span></td>
+<td><span style="color:#966E00">sectionBAB(p21, p23, p25, p09)</span></td>
+<td><span style="color:#966E00">g1001ba = 1.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">137</span></td>
+<td><span style="color:#966E00">Number g1001ab</span></td>
+<td><span style="color:#966E00">sectionBAB(p21, p23, p25, p09)</span></td>
+<td><span style="color:#966E00">g1001ab = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">138</span></td>
+<td><span style="color:#AA1144">Line i15</span></td>
+<td><span style="color:#AA1144">Line p02, p13a</span></td>
+<td><span style="color:#AA1144">i15: 2.26728x - 0.30902y = -0.26762</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">139</span></td>
+<td><span style="color:#AA1144">Line i16</span></td>
+<td><span style="color:#AA1144">Line p02, p13</span></td>
+<td><span style="color:#AA1144">i16: 2.26728x + 0.30902y = 0.26762</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">140</span></td>
+<td><span style="color:#545454">Point p26</span></td>
+<td><span style="color:#545454">Intersection of i16 and i01</span></td>
+<td><span style="color:#545454">p26 = (0.11803, 0)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">141</span></td>
+<td><span style="color:#545454">Point p27</span></td>
+<td><span style="color:#545454">Intersection of i15 and i01</span></td>
+<td><span style="color:#545454">p27 = (-0.11803, 0)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">142</span></td>
+<td><span style="color:#9A6700">Segment g1101b2</span></td>
+<td><span style="color:#9A6700">sectionBAB(&#945;, p27, p26, &#946;)</span></td>
+<td><span style="color:#9A6700">g1101b2 = 0.38197</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">143</span></td>
+<td><span style="color:#9A6700">Segment g1101a</span></td>
+<td><span style="color:#9A6700">sectionBAB(&#945;, p27, p26, &#946;)</span></td>
+<td><span style="color:#9A6700">g1101a = 0.23607</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">144</span></td>
+<td><span style="color:#9A6700">Segment g1101b1</span></td>
+<td><span style="color:#9A6700">sectionBAB(&#945;, p27, p26, &#946;)</span></td>
+<td><span style="color:#9A6700">g1101b1 = 0.38197</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">145</span></td>
+<td><span style="color:#966E00">Number g1101ab</span></td>
+<td><span style="color:#966E00">sectionBAB(&#945;, p27, p26, &#946;)</span></td>
+<td><span style="color:#966E00">g1101ab = 1.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">146</span></td>
+<td><span style="color:#966E00">Number g1101ba</span></td>
+<td><span style="color:#966E00">sectionBAB(&#945;, p27, p26, &#946;)</span></td>
+<td><span style="color:#966E00">g1101ba = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">147</span></td>
+<td><span style="color:#545454">Point p28</span></td>
+<td><span style="color:#545454">Intersection of i15 and i05</span></td>
+<td><span style="color:#545454">p28 = (-0.19098, -0.53523)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">148</span></td>
+<td><span style="color:#545454">Point p29</span></td>
+<td><span style="color:#545454">Intersection of i16 and i06</span></td>
+<td><span style="color:#545454">p29 = (0.19098, -0.53523)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">149</span></td>
+<td><span style="color:#545454">Point p30</span></td>
+<td><span style="color:#545454">Intersection of i16 and i15</span></td>
+<td><span style="color:#545454">p30 = (0, 0.86603)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">150</span></td>
+<td><span style="color:#545454">Point p31</span></td>
+<td><span style="color:#545454">Intersection of i16 and i11</span></td>
+<td><span style="color:#545454">p31 = (0.04508, 0.53523)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">151</span></td>
+<td><span style="color:#545454">Point p32</span></td>
+<td><span style="color:#545454">Intersection of i15 and i11</span></td>
+<td><span style="color:#545454">p32 = (-0.04508, 0.53523)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">152</span></td>
+<td><span style="color:#545454">Point p34</span></td>
+<td><span style="color:#545454">Intersection of i15 and i08</span></td>
+<td><span style="color:#545454">p34 = (-0.23607, -0.86603)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">153</span></td>
+<td><span style="color:#545454">Point p35</span></td>
+<td><span style="color:#545454">Intersection of i16 and i08</span></td>
+<td><span style="color:#545454">p35 = (0.23607, -0.86603)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">154</span></td>
+<td><span style="color:#9A6700">Segment g1201b2</span></td>
+<td><span style="color:#9A6700">sectionBAB(p07, p34, p35, p06)</span></td>
+<td><span style="color:#9A6700">g1201b2 = 0.76393</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">155</span></td>
+<td><span style="color:#9A6700">Segment g1201a</span></td>
+<td><span style="color:#9A6700">sectionBAB(p07, p34, p35, p06)</span></td>
+<td><span style="color:#9A6700">g1201a = 0.47214</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">156</span></td>
+<td><span style="color:#9A6700">Segment g1201b1</span></td>
+<td><span style="color:#9A6700">sectionBAB(p07, p34, p35, p06)</span></td>
+<td><span style="color:#9A6700">g1201b1 = 0.76393</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">157</span></td>
+<td><span style="color:#966E00">Number g1201ab</span></td>
+<td><span style="color:#966E00">sectionBAB(p07, p34, p35, p06)</span></td>
+<td><span style="color:#966E00">g1201ab = 1.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">158</span></td>
+<td><span style="color:#966E00">Number g1201ba</span></td>
+<td><span style="color:#966E00">sectionBAB(p07, p34, p35, p06)</span></td>
+<td><span style="color:#966E00">g1201ba = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">159</span></td>
+<td><span style="color:#9A6700">Segment g1401b1</span></td>
+<td><span style="color:#9A6700">sectionBAB(p14, p32, p31, p15)</span></td>
+<td><span style="color:#9A6700">g1401b1 = 0.1459</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">160</span></td>
+<td><span style="color:#9A6700">Segment g1401a</span></td>
+<td><span style="color:#9A6700">sectionBAB(p14, p32, p31, p15)</span></td>
+<td><span style="color:#9A6700">g1401a = 0.09017</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">161</span></td>
+<td><span style="color:#9A6700">Segment g1401b2</span></td>
+<td><span style="color:#9A6700">sectionBAB(p14, p32, p31, p15)</span></td>
+<td><span style="color:#9A6700">g1401b2 = 0.1459</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">162</span></td>
+<td><span style="color:#966E00">Number g1401ab</span></td>
+<td><span style="color:#966E00">sectionBAB(p14, p32, p31, p15)</span></td>
+<td><span style="color:#966E00">g1401ab = 1.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">163</span></td>
+<td><span style="color:#966E00">Number g1401ba</span></td>
+<td><span style="color:#966E00">sectionBAB(p14, p32, p31, p15)</span></td>
+<td><span style="color:#966E00">g1401ba = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">164</span></td>
+<td><span style="color:#9A6700">Segment g1301b2</span></td>
+<td><span style="color:#9A6700">sectionBAB(p02, p27, p28, p13a)</span></td>
+<td><span style="color:#9A6700">g1301b2 = 0.87403</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">165</span></td>
+<td><span style="color:#9A6700">Segment g1301a</span></td>
+<td><span style="color:#9A6700">sectionBAB(p02, p27, p28, p13a)</span></td>
+<td><span style="color:#9A6700">g1301a = 0.54018</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">166</span></td>
+<td><span style="color:#9A6700">Segment g1301b1</span></td>
+<td><span style="color:#9A6700">sectionBAB(p02, p27, p28, p13a)</span></td>
+<td><span style="color:#9A6700">g1301b1 = 0.87403</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">167</span></td>
+<td><span style="color:#966E00">Number g1301ba</span></td>
+<td><span style="color:#966E00">sectionBAB(p02, p27, p28, p13a)</span></td>
+<td><span style="color:#966E00">g1301ba = 1.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">168</span></td>
+<td><span style="color:#966E00">Number g1301ab</span></td>
+<td><span style="color:#966E00">sectionBAB(p02, p27, p28, p13a)</span></td>
+<td><span style="color:#966E00">g1301ab = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">169</span></td>
+<td><span style="color:#9A6700">Segment g1501b1</span></td>
+<td><span style="color:#9A6700">sectionBAB(p02, p26, p29, p13)</span></td>
+<td><span style="color:#9A6700">g1501b1 = 0.87403</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">170</span></td>
+<td><span style="color:#9A6700">Segment g1501a</span></td>
+<td><span style="color:#9A6700">sectionBAB(p02, p26, p29, p13)</span></td>
+<td><span style="color:#9A6700">g1501a = 0.54018</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">171</span></td>
+<td><span style="color:#9A6700">Segment g1501b2</span></td>
+<td><span style="color:#9A6700">sectionBAB(p02, p26, p29, p13)</span></td>
+<td><span style="color:#9A6700">g1501b2 = 0.87403</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">172</span></td>
+<td><span style="color:#966E00">Number g1501ab</span></td>
+<td><span style="color:#966E00">sectionBAB(p02, p26, p29, p13)</span></td>
+<td><span style="color:#966E00">g1501ab = 1.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">173</span></td>
+<td><span style="color:#966E00">Number g1501ba</span></td>
+<td><span style="color:#966E00">sectionBAB(p02, p26, p29, p13)</span></td>
+<td><span style="color:#966E00">g1501ba = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">174</span></td>
+<td><span style="color:#9A6700">Segment g1601b2</span></td>
+<td><span style="color:#9A6700">sectionBAB(p13, p01, p28, &#945;)</span></td>
+<td><span style="color:#9A6700">g1601b2 = 0.61803</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">175</span></td>
+<td><span style="color:#9A6700">Segment g1601a</span></td>
+<td><span style="color:#9A6700">sectionBAB(p13, p01, p28, &#945;)</span></td>
+<td><span style="color:#9A6700">g1601a = 0.38197</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">176</span></td>
+<td><span style="color:#9A6700">Segment g1601b1</span></td>
+<td><span style="color:#9A6700">sectionBAB(p13, p01, p28, &#945;)</span></td>
+<td><span style="color:#9A6700">g1601b1 = 0.61803</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">177</span></td>
+<td><span style="color:#966E00">Number g1601ba</span></td>
+<td><span style="color:#966E00">sectionBAB(p13, p01, p28, &#945;)</span></td>
+<td><span style="color:#966E00">g1601ba = 1.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">178</span></td>
+<td><span style="color:#966E00">Number g1601ab</span></td>
+<td><span style="color:#966E00">sectionBAB(p13, p01, p28, &#945;)</span></td>
+<td><span style="color:#966E00">g1601ab = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">179</span></td>
+<td><span style="color:#9A6700">Segment g1701b2</span></td>
+<td><span style="color:#9A6700">sectionBAB(p13a, p01, p29, &#946;)</span></td>
+<td><span style="color:#9A6700">g1701b2 = 0.61803</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">180</span></td>
+<td><span style="color:#9A6700">Segment g1701a</span></td>
+<td><span style="color:#9A6700">sectionBAB(p13a, p01, p29, &#946;)</span></td>
+<td><span style="color:#9A6700">g1701a = 0.38197</span></td>
+<td><span style="color:#9A6700">a</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#9A6700">181</span></td>
+<td><span style="color:#9A6700">Segment g1701b1</span></td>
+<td><span style="color:#9A6700">sectionBAB(p13a, p01, p29, &#946;)</span></td>
+<td><span style="color:#9A6700">g1701b1 = 0.61803</span></td>
+<td><span style="color:#9A6700">b</span></td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">182</span></td>
+<td><span style="color:#966E00">Number g1701ba</span></td>
+<td><span style="color:#966E00">sectionBAB(p13a, p01, p29, &#946;)</span></td>
+<td><span style="color:#966E00">g1701ba = 1.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#966E00">183</span></td>
+<td><span style="color:#966E00">Number g1701ab</span></td>
+<td><span style="color:#966E00">sectionBAB(p13a, p01, p29, &#946;)</span></td>
+<td><span style="color:#966E00">g1701ab = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#4300C3">184</span></td>
+<td><span style="color:#4300C3">Polygon y01</span></td>
+<td><span style="color:#4300C3">Polygon p02, p26, &#946;, p29, p13, p01, p13a, p28, &#945;, p27</span></td>
+<td><span style="color:#4300C3">y01 = 0.73967</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#4300C3">185</span></td>
+<td><span style="color:#4300C3">Segment y01j</span></td>
+<td><span style="color:#4300C3">Segment p02, p26</span></td>
+<td><span style="color:#4300C3">y01j = 0.87403</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#4300C3">186</span></td>
+<td><span style="color:#4300C3">Segment y01i</span></td>
+<td><span style="color:#4300C3">Segment p26, &#946;</span></td>
+<td><span style="color:#4300C3">y01i = 0.38197</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#4300C3">187</span></td>
+<td><span style="color:#4300C3">Segment y01h</span></td>
+<td><span style="color:#4300C3">Segment &#946;, p29</span></td>
+<td><span style="color:#4300C3">y01h = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#4300C3">188</span></td>
+<td><span style="color:#4300C3">Segment y01g</span></td>
+<td><span style="color:#4300C3">Segment p29, p13</span></td>
+<td><span style="color:#4300C3">y01g = 0.87403</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#4300C3">189</span></td>
+<td><span style="color:#4300C3">Segment y01f</span></td>
+<td><span style="color:#4300C3">Segment p13, p01</span></td>
+<td><span style="color:#4300C3">y01f = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#4300C3">190</span></td>
+<td><span style="color:#4300C3">Segment y01e</span></td>
+<td><span style="color:#4300C3">Segment p01, p13a</span></td>
+<td><span style="color:#4300C3">y01e = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#4300C3">191</span></td>
+<td><span style="color:#4300C3">Segment y01d</span></td>
+<td><span style="color:#4300C3">Segment p13a, p28</span></td>
+<td><span style="color:#4300C3">y01d = 0.87403</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#4300C3">192</span></td>
+<td><span style="color:#4300C3">Segment y01c</span></td>
+<td><span style="color:#4300C3">Segment p28, &#945;</span></td>
+<td><span style="color:#4300C3">y01c = 0.61803</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#4300C3">193</span></td>
+<td><span style="color:#4300C3">Segment y01b</span></td>
+<td><span style="color:#4300C3">Segment &#945;, p27</span></td>
+<td><span style="color:#4300C3">y01b = 0.38197</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#4300C3">194</span></td>
+<td><span style="color:#4300C3">Segment y01a</span></td>
+<td><span style="color:#4300C3">Segment p27, p02</span></td>
+<td><span style="color:#4300C3">y01a = 0.87403</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#545454">195</span></td>
+<td><span style="color:#545454">Point p36</span></td>
+<td><span style="color:#545454">Intersection of i02 and i11</span></td>
+<td><span style="color:#545454">p36 = (0, 0.53523)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">196</span></td>
+<td><span style="color:#AA1144">Line i17</span></td>
+<td><span style="color:#AA1144">Line p10, p11</span></td>
+<td><span style="color:#AA1144">i17: -0.53523x + 0.30902y = 0.59841</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">197</span></td>
+<td><span style="color:#AA1144">Line i18</span></td>
+<td><span style="color:#AA1144">Line p12, p09</span></td>
+<td><span style="color:#AA1144">i18: 0.53523x + 0.30902y = 0.59841</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">198</span></td>
+<td><span style="color:#AA1144">Line i19</span></td>
+<td><span style="color:#AA1144">Line p13a, p13</span></td>
+<td><span style="color:#AA1144">i19: y = -1.40126</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">199</span></td>
+<td><span style="color:#AA1144">Line i20</span></td>
+<td><span style="color:#AA1144">Line p07, p11</span></td>
+<td><span style="color:#AA1144">i20: -1.40126x + 0.19098y = 1.23586</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">200</span></td>
+<td><span style="color:#AA1144">Line i21</span></td>
+<td><span style="color:#AA1144">Line p07, p13</span></td>
+<td><span style="color:#AA1144">i21: 0.53523x + 1.30902y = -1.66888</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">201</span></td>
+<td><span style="color:#AA1144">Line i23</span></td>
+<td><span style="color:#AA1144">Line p07, p12</span></td>
+<td><span style="color:#AA1144">i23: -1.40126x + 1.80902y = -0.1654</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">202</span></td>
+<td><span style="color:#AA1144">Line i24</span></td>
+<td><span style="color:#AA1144">Line p07, p09</span></td>
+<td><span style="color:#AA1144">i24: -0.86603x + 2.11803y = -0.96825</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">203</span></td>
+<td><span style="color:#AA1144">Line i25</span></td>
+<td><span style="color:#AA1144">Line p06, p13a</span></td>
+<td><span style="color:#AA1144">i25: 0.53523x - 1.30902y = 1.66888</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">204</span></td>
+<td><span style="color:#AA1144">Line i26</span></td>
+<td><span style="color:#AA1144">Line p06, p12</span></td>
+<td><span style="color:#AA1144">i26: -1.40126x - 0.19098y = -1.23586</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">205</span></td>
+<td><span style="color:#AA1144">Line i27</span></td>
+<td><span style="color:#AA1144">Line p06, p11</span></td>
+<td><span style="color:#AA1144">i27: -1.40126x - 1.80902y = 0.1654</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">206</span></td>
+<td><span style="color:#AA1144">Line i28</span></td>
+<td><span style="color:#AA1144">Line p06, p10</span></td>
+<td><span style="color:#AA1144">i28: -0.86603x - 2.11803y = 0.96825</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">207</span></td>
+<td><span style="color:#AA1144">Line i29</span></td>
+<td><span style="color:#AA1144">Line p11, p13a</span></td>
+<td><span style="color:#AA1144">i29: 1.93649x + 0.5y = -1.29904</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">208</span></td>
+<td><span style="color:#AA1144">Line i30</span></td>
+<td><span style="color:#AA1144">Line p11, &#946;</span></td>
+<td><span style="color:#AA1144">i30: 0.53523x + 1.30902y = 0.26762</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">209</span></td>
+<td><span style="color:#AA1144">Line i31</span></td>
+<td><span style="color:#AA1144">Line p12, &#945;</span></td>
+<td><span style="color:#AA1144">i31: 0.53523x - 1.30902y = -0.26762</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">210</span></td>
+<td><span style="color:#AA1144">Line i32</span></td>
+<td><span style="color:#AA1144">Line p13a, &#945;</span></td>
+<td><span style="color:#AA1144">i32: -1.40126x - 0.19098y = 0.70063</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">211</span></td>
+<td><span style="color:#AA1144">Line i33</span></td>
+<td><span style="color:#AA1144">Line p13, &#946;</span></td>
+<td><span style="color:#AA1144">i33: -1.40126x + 0.19098y = -0.70063</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">212</span></td>
+<td><span style="color:#AA1144">Line i34</span></td>
+<td><span style="color:#AA1144">Line p13, p10</span></td>
+<td><span style="color:#AA1144">i34: -1.40126x - 1.42705y = 1.56665</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">213</span></td>
+<td><span style="color:#AA1144">Line i35</span></td>
+<td><span style="color:#AA1144">Line p13a, p09</span></td>
+<td><span style="color:#AA1144">i35: -1.40126x + 1.42705y = -1.56665</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">214</span></td>
+<td><span style="color:#AA1144">Line i36</span></td>
+<td><span style="color:#AA1144">Line p12, p13</span></td>
+<td><span style="color:#AA1144">i36: 1.93649x - 0.5y = 1.29904</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">215</span></td>
+<td><span style="color:#AA1144">Line i37</span></td>
+<td><span style="color:#AA1144">Line p12, p10</span></td>
+<td><span style="color:#AA1144">i37: 0.53523x - 1.92705y = -0.59841</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">216</span></td>
+<td><span style="color:#AA1144">Line i38</span></td>
+<td><span style="color:#AA1144">Line p11, p09</span></td>
+<td><span style="color:#AA1144">i38: 0.53523x + 1.92705y = 0.59841</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">217</span></td>
+<td><span style="color:#AA1144">Line i39</span></td>
+<td><span style="color:#AA1144">Line p02, p11</span></td>
+<td><span style="color:#AA1144">i39: 0.33079x - 0.80902y = -0.70063</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr style='vertical-align:baseline;'>
+<td><span style="color:#AA1144">218</span></td>
+<td><span style="color:#AA1144">Line i40</span></td>
+<td><span style="color:#AA1144">Line p02, p12</span></td>
+<td><span style="color:#AA1144">i40: 0.33079x + 0.80902y = 0.70063</span></td>
+<td>&nbsp;</td>
+</tr>
+</table>
+Created with <a href="https://www.geogebra.org/" target="_blank" >GeoGebra</a>
+<!-- Base64 string so that this file can be opened in GeoGebra with File -> Open -->
+<applet width='1' height='1' code='' style="display:none">
+<param name="ggbBase64" value="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">
+</applet>
+</body>
+</html>

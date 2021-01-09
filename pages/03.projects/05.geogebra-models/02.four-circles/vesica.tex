@@ -1,0 +1,30 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{pstricks-add}
+\pagestyle{empty}
+\begin{document}
+\newrgbcolor{ffxfqq}{1. 0.4980392156862745 0.}
+\psset{xunit=1.0cm,yunit=1.0cm,algebraic=true,dimen=middle,dotstyle=o,dotsize=5pt 0,linewidth=2.pt,arrowsize=3pt 2,arrowinset=0.25}
+\begin{pspicture*}(-2.5,-1.2510748248031496)(2.5,1.3074925905236503)
+\psplot[linewidth=2.pt,linecolor=white]{-2.5}{2.5}{(-0.-0.*x)/1.}
+\pscircle[linewidth=2.pt,linestyle=dotted,linecolor=white](-0.5,0.){1.}
+\pscircle[linewidth=2.pt,linestyle=dotted,linecolor=white](0.5,0.){1.}
+\psline[linewidth=2.pt,linestyle=dashed,dash=1pt 1pt 1pt 1pt ,linecolor=white](0.,-1.2510748248031496)(0.,1.3074925905236503)
+\begin{scriptsize}
+\psdots[dotstyle=*,linecolor=ffxfqq](-0.5,0.)
+\rput[bl](-0.5576954677439179,0.034145234171913404){\ffxfqq{$A$}}
+\psdots[dotstyle=*,linecolor=ffxfqq](0.5,0.)
+\rput[bl](0.5286568222904331,0.031177058516081848){\ffxfqq{$B$}}
+\rput[bl](-2.3949961987036534,0.02524070720441874){\white{baseline}}
+\rput[bl](-1.029635397021136,0.7732209724739705){\white{$c01$}}
+\rput[bl](0.16357121662315116,0.8800752960839064){\white{$c02$}}
+\psdots[dotsize=4pt 0,dotstyle=*,linecolor=white](0.,0.8660254037844386)
+\rput[bl](0.021098785143236293,0.9364706335447059){\white{$p01$}}
+\psdots[dotsize=4pt 0,dotstyle=*,linecolor=white](0.,-0.8660254037844387)
+\rput[bl](0.021098785143236293,-0.9661299618433205){\white{$p02$}}
+\rput[bl](-0.026392025350068668,1.2392245504395245){\white{$i02$}}
+\psdots[dotsize=4pt 0,dotstyle=*,linecolor=white](0.,0.)
+\rput[bl](0.03297148776656253,0.028208882860250296){\white{$p03$}}
+\end{scriptsize}
+\end{pspicture*}
+\end{document}
