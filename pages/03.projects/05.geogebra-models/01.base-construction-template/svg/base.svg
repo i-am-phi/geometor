@@ -1,0 +1,177 @@
+<svg 
+     version="1.1"
+     baseProfile="full"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1204 886"
+     >
+<rect class="bg" />
+<g stroke-linejoin="miter" stroke-dashoffset="0.0000" stroke-dasharray="none" stroke-width="1.0000" stroke-miterlimit="10.000" stroke-linecap="square">
+<g id="misc">
+</g>
+<g id="base">
+<g>
+<g stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" fill="none" stroke="#e0e0e0">
+  <path d="M 749.67 443.00 C 749.67 606.11 617.44 738.33 454.33 738.33 C 291.23 738.33 159.00 606.11 159.00 443.00 C 159.00 279.89 291.23 147.67 454.33 147.67 C 617.44 147.67 749.67 279.89 749.67 443.00 z"/>
+<title>Circle c01a</title>
+<desc>Circle c01a: Circle through β with center α</desc>
+</g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 363.00, 183.00)">
+<text>c01a</text>
+</g> 
+</g> 
+<g>
+<g stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" fill="none" stroke="#e0e0e0">
+  <path d="M 1045.0 443.00 C 1045.0 606.11 912.77 738.33 749.67 738.33 C 586.56 738.33 454.33 606.11 454.33 443.00 C 454.33 279.89 586.56 147.67 749.67 147.67 C 912.77 147.67 1045.0 279.89 1045.0 443.00 z"/>
+<title>Circle c01b</title>
+<desc>Circle c01b: Circle through α with center β</desc>
+</g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 665.00, 181.00)">
+<text>c01b</text>
+</g> 
+</g> 
+<g>
+<g stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" fill="none" stroke="#e0e0e0">
+  <path d="M -5.0000 443.00 L 1209.0 443.00"/>
+<title>Line i01</title>
+<desc>Line i01: Line α, β</desc>
+</g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 5.0000, 435.00)">
+<text>i01</text>
+</g> 
+</g> 
+<g>
+<g stroke-dasharray="1.5000,3.0000" stroke-width="1.5000" fill="none" stroke="#e0e0e0">
+  <path d="M 602.00 891.00 L 602.00 -5.0000"/>
+<title>Line i02</title>
+<desc>Line i02: Line p03b, p03a</desc>
+</g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 586.00, 15.000)">
+<text>i02</text>
+</g> 
+</g> 
+</g>
+<g id="graphics">
+<g id="Q1" class="segment">
+<g class="segment s-66ccff Q1">
+  <path d="M 454.33 443.00 L 749.67 443.00"/>
+<title>Segment Q1</title>
+<desc>Segment Q1: Segment α, β</desc>
+</g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 563.00, 431.00)">
+<text>Q1</text>
+</g> 
+</g> 
+<g id="Q3" class="segment">
+<g class="segment s-66ccff Q3">
+  <path d="M 602.00 187.23 L 602.00 698.77"/>
+<title>Segment Q3</title>
+<desc>Segment Q3: Segment p03b, p03a</desc>
+</g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 614.00, 472.00)">
+<text>Q3</text>
+</g> 
+</g> 
+</g>
+<g id="points">
+<g>
+<g class="circle s-cc9900">
+  <path d="M 459.33 443.00 C 459.33 445.76 457.09 448.00 454.33 448.00 C 451.57 448.00 449.33 445.76 449.33 443.00 C 449.33 440.24 451.57 438.00 454.33 438.00 C 457.09 438.00 459.33 440.24 459.33 443.00 z"/>
+<title>Point α</title>
+<desc>α = (-0.5, 0)</desc>
+</g>
+  <circle class="top" cx="459.33" cy="443.00" r="5" />
+<title>Point α</title>
+<desc>α = (-0.5, 0)</desc>
+</g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 435.00, 433.00)">
+<text>&#x03b1;</text>
+</g> 
+</g> 
+<g>
+<g class="circle s-cc9900">
+  <path d="M 754.67 443.00 C 754.67 445.76 752.43 448.00 749.67 448.00 C 746.91 448.00 744.67 445.76 744.67 443.00 C 744.67 440.24 746.91 438.00 749.67 438.00 C 752.43 438.00 754.67 440.24 754.67 443.00 z"/>
+<title>Point β</title>
+<desc>β = (0.5, 0)</desc>
+</g>
+  <circle class="top" cx="754.67" cy="443.00" r="5" />
+<title>Point β</title>
+<desc>β = (0.5, 0)</desc>
+</g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 764.00, 431.00)">
+<text>&#x03b2;</text>
+</g> 
+</g> 
+<g>
+<g class="circle s-e0e0e0">
+  <path d="M 164.00 443.00 C 164.00 445.76 161.76 448.00 159.00 448.00 C 156.24 448.00 154.00 445.76 154.00 443.00 C 154.00 440.24 156.24 438.00 159.00 438.00 C 161.76 438.00 164.00 440.24 164.00 443.00 z"/>
+<title>Point p01</title>
+<desc>Point p01: Intersection of c01a and i01</desc>
+</g>
+  <circle class="top" cx="164.00" cy="443.00" r="5" />
+<title>Point p01</title>
+<desc>Point p01: Intersection of c01a and i01</desc>
+</g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 128.00, 434.00)">
+<text>p01</text>
+</g> 
+</g> 
+<g>
+<g class="circle s-e0e0e0">
+  <path d="M 1050.0 443.00 C 1050.0 445.76 1047.8 448.00 1045.0 448.00 C 1042.2 448.00 1040.0 445.76 1040.0 443.00 C 1040.0 440.24 1042.2 438.00 1045.0 438.00 C 1047.8 438.00 1050.0 440.24 1050.0 443.00 z"/>
+<title>Point p02</title>
+<desc>Point p02: Intersection of c01b and i01</desc>
+</g>
+  <circle class="top" cx="1050.0" cy="443.00" r="5" />
+<title>Point p02</title>
+<desc>Point p02: Intersection of c01b and i01</desc>
+</g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 1053.0, 433.00)">
+<text>p02</text>
+</g> 
+</g> 
+<g>
+<g class="circle s-e0e0e0">
+  <path d="M 607.00 187.23 C 607.00 190.00 604.76 192.23 602.00 192.23 C 599.24 192.23 597.00 190.00 597.00 187.23 C 597.00 184.47 599.24 182.23 602.00 182.23 C 604.76 182.23 607.00 184.47 607.00 187.23 z"/>
+<title>Point p03b</title>
+<desc>Point p03b: Intersection point of c01a, c01b</desc>
+</g>
+  <circle class="top" cx="607.00" cy="187.23" r="5" />
+<title>Point p03b</title>
+<desc>Point p03b: Intersection point of c01a, c01b</desc>
+</g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 608.00, 165.00)">
+<text>p03b</text>
+</g> 
+</g> 
+<g>
+<g class="circle s-e0e0e0">
+  <path d="M 607.00 698.77 C 607.00 701.53 604.76 703.77 602.00 703.77 C 599.24 703.77 597.00 701.53 597.00 698.77 C 597.00 696.00 599.24 693.77 602.00 693.77 C 604.76 693.77 607.00 696.00 607.00 698.77 z"/>
+<title>Point p03a</title>
+<desc>Point p03a: Intersection point of c01a, c01b</desc>
+</g>
+  <circle class="top" cx="607.00" cy="698.77" r="5" />
+<title>Point p03a</title>
+<desc>Point p03a: Intersection point of c01a, c01b</desc>
+</g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 609.00, 732.00)">
+<text>p03a</text>
+</g> 
+</g> 
+<g>
+<g class="circle s-e0e0e0">
+  <path d="M 607.00 443.00 C 607.00 445.76 604.76 448.00 602.00 448.00 C 599.24 448.00 597.00 445.76 597.00 443.00 C 597.00 440.24 599.24 438.00 602.00 438.00 C 604.76 438.00 607.00 440.24 607.00 443.00 z"/>
+<title>Point p05</title>
+<desc>Point p05: Intersection of i01 and i02</desc>
+</g>
+  <circle class="top" cx="607.00" cy="443.00" r="5" />
+<title>Point p05</title>
+<desc>Point p05: Intersection of i01 and i02</desc>
+</g>
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 618.00, 431.00)">
+<text>p05</text>
+</g> 
+</g> 
+</g>
+</g> 
+</svg> 

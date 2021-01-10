@@ -1,0 +1,1380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.618.0" app="classic" platform="d"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggt.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<macro cmdName="ABsection" toolName="AB section" toolHelp="ABsection[ &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt; ]" iconFile="" showInToolBar="true" copyCaptions="true">
+<macroInput a0="L" a1="M" a2="N"/>
+<macroOutput a0="f" a1="g" a2="ab"/>
+<construction title="" author="" date="">
+<element type="point" label="L">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.5997841825230212" y="1.5789201681162526" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="M">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.016234794535630093" y="1.5885656125457963" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="N">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.4371010936529217" y="1.6030337791901117" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="L" a1="M"/>
+	<output a0="f"/>
+</command>
+<element type="segment" label="f">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-1" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.009645444429543737" y="0.5835493879873912" z="-0.927163082787433"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a"/>
+</element>
+<command name="Segment">
+	<input a0="M" a1="N"/>
+	<output a0="g"/>
+</command>
+<element type="segment" label="g">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-5" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.014468166644315383" y="0.4533358881885518" z="-0.7203886906220172"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="b"/>
+</element>
+<expression label="ab" exp="f / g" />
+<element type="numeric" label="ab">
+	<value val="1.2867547182419938"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+</construction>
+</macro>
+<macro cmdName="ABCsection" toolName="ABC section" toolHelp="ABCsection[ &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt; ]" iconFile="" showInToolBar="true" copyCaptions="true">
+<macroInput a0="L" a1="M" a2="N" a3="O"/>
+<macroOutput a0="f" a1="g" a2="i" a3="ab" a4="bc"/>
+<construction title="" author="" date="">
+<element type="point" label="L">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.5997841825230212" y="1.5789201681162526" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="M">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.016234794535630093" y="1.5885656125457963" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="N">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.4371010936529217" y="1.6030337791901117" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="O">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="1.0061823149959974" y="1.6175019458344273" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="L" a1="M"/>
+	<output a0="f"/>
+</command>
+<element type="segment" label="f">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-1" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.009645444429543737" y="0.5835493879873912" z="-0.927163082787433"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a"/>
+</element>
+<command name="Segment">
+	<input a0="M" a1="N"/>
+	<output a0="g"/>
+</command>
+<element type="segment" label="g">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-5" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.014468166644315383" y="0.4533358881885518" z="-0.7203886906220172"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="b"/>
+</element>
+<command name="Segment">
+	<input a0="N" a1="O"/>
+	<output a0="i"/>
+</command>
+<element type="segment" label="i">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-13" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.014468166644315605" y="0.5690812213430757" z="-0.9059323694523321"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a+b"/>
+</element>
+<expression label="ab" exp="f / g" />
+<element type="numeric" label="ab">
+	<value val="1.2867547182419938"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="bc" exp="g / i" />
+<element type="numeric" label="bc">
+	<value val="0.7967583068989181"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+</construction>
+</macro>
+<macro cmdName="ABCDsection" toolName="ABCD section" toolHelp="ABCDsection[ &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt; ]" iconFile="" showInToolBar="true" copyCaptions="true">
+<macroInput a0="L" a1="M" a2="N" a3="O" a4="P"/>
+<macroOutput a0="f" a1="g" a2="i" a3="k" a4="ab" a5="bc" a6="cd"/>
+<construction title="" author="" date="">
+<element type="point" label="L">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.5997841825230212" y="1.5789201681162526" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="M">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.016234794535630093" y="1.5885656125457963" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="N">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.4371010936529217" y="1.6030337791901117" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="O">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="1.0061823149959974" y="1.6175019458344273" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="P">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="1.7344133694265433" y="1.6271473902639708" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="L" a1="M"/>
+	<output a0="f"/>
+</command>
+<element type="segment" label="f">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-1" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.009645444429543737" y="0.5835493879873912" z="-0.927163082787433"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a"/>
+</element>
+<command name="Segment">
+	<input a0="M" a1="N"/>
+	<output a0="g"/>
+</command>
+<element type="segment" label="g">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-5" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.014468166644315383" y="0.4533358881885518" z="-0.7203886906220172"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="b"/>
+</element>
+<command name="Segment">
+	<input a0="N" a1="O"/>
+	<output a0="i"/>
+</command>
+<element type="segment" label="i">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-13" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.014468166644315605" y="0.5690812213430757" z="-0.9059323694523321"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a+b"/>
+</element>
+<command name="Segment">
+	<input a0="O" a1="P"/>
+	<output a0="k"/>
+</command>
+<element type="segment" label="k">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-18" y="-30"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.009645444429543515" y="0.7282310544305459" z="-1.1682100719531814"/>
+	<lineStyle thickness="13" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a+2b"/>
+</element>
+<expression label="ab" exp="f / g" />
+<element type="numeric" label="ab">
+	<value val="1.2867547182419938"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="bc" exp="g / i" />
+<element type="numeric" label="bc">
+	<value val="0.7967583068989181"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="cd" exp="i / k" />
+<element type="numeric" label="cd">
+	<value val="0.7816409074644709"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+</construction>
+</macro>
+<macro cmdName="BABsection" toolName="BAB section" toolHelp="BABsection[ &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt; ]" iconFile="" showInToolBar="true" copyCaptions="true">
+<macroInput a0="K" a1="L" a2="M" a3="N"/>
+<macroOutput a0="f" a1="g" a2="h" a3="ab" a4="ba"/>
+<construction title="" author="" date="">
+<element type="point" label="K">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.057942792926345" y="1.5692747236867088" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="L">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.5997841825230212" y="1.5789201681162526" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="M">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.016234794535630093" y="1.5885656125457963" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="N">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.4371010936529217" y="1.6030337791901117" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="L" a1="M"/>
+	<output a0="f"/>
+</command>
+<element type="segment" label="f">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-1" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.009645444429543737" y="0.5835493879873912" z="-0.927163082787433"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a"/>
+</element>
+<command name="Segment">
+	<input a0="M" a1="N"/>
+	<output a0="g"/>
+</command>
+<element type="segment" label="g">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-5" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.014468166644315383" y="0.4533358881885518" z="-0.7203886906220172"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="b"/>
+</element>
+<command name="Segment">
+	<input a0="L" a1="K"/>
+	<output a0="h"/>
+</command>
+<element type="segment" label="h">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-4" y="3"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="0.009645444429543737" y="-0.45815861040332373" z="0.7291810551641696"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="b"/>
+</element>
+<expression label="ab" exp="f / g" />
+<element type="numeric" label="ab">
+	<value val="1.2867547182419938"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="ba" exp="h / f" />
+<element type="numeric" label="ba">
+	<value val="0.7851906845230628"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+</construction>
+</macro>
+<macro cmdName="CBABCsection" toolName="CBABC section" toolHelp="CBABCsection[ &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt; ]" iconFile="" showInToolBar="true" copyCaptions="true">
+<macroInput a0="J" a1="K" a2="L" a3="M" a4="N" a5="O"/>
+<macroOutput a0="f" a1="g" a2="h" a3="i" a4="j" a5="ab" a6="ba" a7="bc" a8="cb"/>
+<construction title="" author="" date="">
+<element type="point" label="J">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.6800739586319107" y="1.5548065570423935" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="K">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.057942792926345" y="1.5692747236867088" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="L">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.5997841825230212" y="1.5789201681162526" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="M">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.016234794535630093" y="1.5885656125457963" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="N">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.4371010936529217" y="1.6030337791901117" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="O">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="1.0061823149959974" y="1.6175019458344273" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="L" a1="M"/>
+	<output a0="f"/>
+</command>
+<element type="segment" label="f">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-1" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.009645444429543737" y="0.5835493879873912" z="-0.927163082787433"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a"/>
+</element>
+<command name="Segment">
+	<input a0="M" a1="N"/>
+	<output a0="g"/>
+</command>
+<element type="segment" label="g">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-5" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.014468166644315383" y="0.4533358881885518" z="-0.7203886906220172"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="b"/>
+</element>
+<command name="Segment">
+	<input a0="L" a1="K"/>
+	<output a0="h"/>
+</command>
+<element type="segment" label="h">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-4" y="3"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="0.009645444429543737" y="-0.45815861040332373" z="0.7291810551641696"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="b"/>
+</element>
+<command name="Segment">
+	<input a0="N" a1="O"/>
+	<output a0="i"/>
+</command>
+<element type="segment" label="i">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-13" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.014468166644315605" y="0.5690812213430757" z="-0.9059323694523321"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a+b"/>
+</element>
+<command name="Segment">
+	<input a0="K" a1="J"/>
+	<output a0="j"/>
+</command>
+<element type="segment" label="j">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-12" y="2"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="0.014468166644315383" y="-0.6221311657055657" z="0.9916012057877026"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a+b"/>
+</element>
+<expression label="ab" exp="f / g" />
+<element type="numeric" label="ab">
+	<value val="1.2867547182419938"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="bc" exp="g / i" />
+<element type="numeric" label="bc">
+	<value val="0.7967583068989181"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="ba" exp="h / f" />
+<element type="numeric" label="ba">
+	<value val="0.7851906845230628"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="cb" exp="j / h" />
+<element type="numeric" label="cb">
+	<value val="1.3579609844247538"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+</construction>
+</macro>
+<macro cmdName="DCBABCDsection" toolName="DCBABCD section" toolHelp="DCBABCDsection[ &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt; ]" iconFile="" showInToolBar="true" copyCaptions="true">
+<macroInput a0="I" a1="J" a2="K" a3="L" a4="M" a5="N" a6="O" a7="P"/>
+<macroOutput a0="f" a1="g" a2="h" a3="i" a4="j" a5="k" a6="l" a7="ab" a8="ba" a9="bc" a10="cb" a11="cd" a12="dc"/>
+<construction title="" author="" date="">
+<element type="point" label="I">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-2.4951140129283496" y="1.5451611126128497" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="J">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.6800739586319107" y="1.5548065570423935" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="K">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.057942792926345" y="1.5692747236867088" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="L">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.5997841825230212" y="1.5789201681162526" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="M">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.016234794535630093" y="1.5885656125457963" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="N">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.4371010936529217" y="1.6030337791901117" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="O">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="1.0061823149959974" y="1.6175019458344273" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="P">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="1.7344133694265433" y="1.6271473902639708" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="L" a1="M"/>
+	<output a0="f"/>
+</command>
+<element type="segment" label="f">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-1" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.009645444429543737" y="0.5835493879873912" z="-0.927163082787433"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a"/>
+</element>
+<command name="Segment">
+	<input a0="M" a1="N"/>
+	<output a0="g"/>
+</command>
+<element type="segment" label="g">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-5" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.014468166644315383" y="0.4533358881885518" z="-0.7203886906220172"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="b"/>
+</element>
+<command name="Segment">
+	<input a0="L" a1="K"/>
+	<output a0="h"/>
+</command>
+<element type="segment" label="h">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-4" y="3"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="0.009645444429543737" y="-0.45815861040332373" z="0.7291810551641696"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="b"/>
+</element>
+<command name="Segment">
+	<input a0="N" a1="O"/>
+	<output a0="i"/>
+</command>
+<element type="segment" label="i">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-13" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.014468166644315605" y="0.5690812213430757" z="-0.9059323694523321"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a+b"/>
+</element>
+<command name="Segment">
+	<input a0="K" a1="J"/>
+	<output a0="j"/>
+</command>
+<element type="segment" label="j">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-12" y="2"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="0.014468166644315383" y="-0.6221311657055657" z="0.9916012057877026"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a+b"/>
+</element>
+<command name="Segment">
+	<input a0="O" a1="P"/>
+	<output a0="k"/>
+</command>
+<element type="segment" label="k">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-18" y="-30"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.009645444429543515" y="0.7282310544305459" z="-1.1682100719531814"/>
+	<lineStyle thickness="13" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a+2b"/>
+</element>
+<command name="Segment">
+	<input a0="J" a1="I"/>
+	<output a0="l"/>
+</command>
+<element type="segment" label="l">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-16" y="0"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="0.009645444429543737" y="-0.8150400542964389" z="1.2834346806777992"/>
+	<lineStyle thickness="13" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a+2b"/>
+</element>
+<expression label="ab" exp="f / g" />
+<element type="numeric" label="ab">
+	<value val="1.2867547182419938"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="bc" exp="g / i" />
+<element type="numeric" label="bc">
+	<value val="0.7967583068989181"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="cd" exp="i / k" />
+<element type="numeric" label="cd">
+	<value val="0.7816409074644709"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="ba" exp="h / f" />
+<element type="numeric" label="ba">
+	<value val="0.7851906845230628"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="cb" exp="j / h" />
+<element type="numeric" label="cb">
+	<value val="1.3579609844247538"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="dc" exp="l / j" />
+<element type="numeric" label="dc">
+	<value val="1.3098151074161635"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+</construction>
+</macro>
+<macro cmdName="ABAsection" toolName="ABA section" toolHelp="ABAsection[ &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt; ]" iconFile="" showInToolBar="true" copyCaptions="true">
+<macroInput a0="K" a1="L" a2="M" a3="N"/>
+<macroOutput a0="h" a1="f" a2="g" a3="ab" a4="ba"/>
+<construction title="" author="" date="">
+<element type="point" label="K">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.057942792926345" y="1.5692747236867088" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="L">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.5997841825230212" y="1.5789201681162526" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="M">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.016234794535630093" y="1.5885656125457963" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="N">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.4371010936529217" y="1.6030337791901117" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="L" a1="M"/>
+	<output a0="f"/>
+</command>
+<element type="segment" label="f">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-1" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.009645444429543737" y="0.5835493879873912" z="-0.927163082787433"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="b"/>
+</element>
+<command name="Segment">
+	<input a0="M" a1="N"/>
+	<output a0="g"/>
+</command>
+<element type="segment" label="g">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-5" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.014468166644315383" y="0.4533358881885518" z="-0.7203886906220172"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a"/>
+</element>
+<command name="Segment">
+	<input a0="L" a1="K"/>
+	<output a0="h"/>
+</command>
+<element type="segment" label="h">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-4" y="3"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="0.009645444429543737" y="-0.45815861040332373" z="0.7291810551641696"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a"/>
+</element>
+<expression label="ab" exp="f / g" />
+<element type="numeric" label="ab">
+	<value val="1.2867547182419938"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="ba" exp="h / f" />
+<element type="numeric" label="ba">
+	<value val="0.7851906845230628"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+</construction>
+</macro>
+<macro cmdName="ABCBAsection" toolName="ABCBA section" toolHelp="ABCBAsection[ &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt; ]" iconFile="" showInToolBar="true" copyCaptions="true">
+<macroInput a0="J" a1="K" a2="L" a3="M" a4="N" a5="O"/>
+<macroOutput a0="j" a1="h" a2="f" a3="g" a4="i" a5="ab" a6="ba" a7="bc" a8="cb"/>
+<construction title="" author="" date="">
+<element type="point" label="J">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.6800739586319107" y="1.5548065570423935" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="K">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.057942792926345" y="1.5692747236867088" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="L">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.5997841825230212" y="1.5789201681162526" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="M">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.016234794535630093" y="1.5885656125457963" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="N">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.4371010936529217" y="1.6030337791901117" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="O">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="1.0061823149959974" y="1.6175019458344273" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="L" a1="M"/>
+	<output a0="f"/>
+</command>
+<element type="segment" label="f">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-12" y="-30"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.009645444429543737" y="0.5835493879873912" z="-0.927163082787433"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a+b"/>
+</element>
+<command name="Segment">
+	<input a0="M" a1="N"/>
+	<output a0="g"/>
+</command>
+<element type="segment" label="g">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-5" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.014468166644315383" y="0.4533358881885518" z="-0.7203886906220172"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="b"/>
+</element>
+<command name="Segment">
+	<input a0="L" a1="K"/>
+	<output a0="h"/>
+</command>
+<element type="segment" label="h">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-4" y="3"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="0.009645444429543737" y="-0.45815861040332373" z="0.7291810551641696"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="b"/>
+</element>
+<command name="Segment">
+	<input a0="N" a1="O"/>
+	<output a0="i"/>
+</command>
+<element type="segment" label="i">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-13" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.014468166644315605" y="0.5690812213430757" z="-0.9059323694523321"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a"/>
+</element>
+<command name="Segment">
+	<input a0="K" a1="J"/>
+	<output a0="j"/>
+</command>
+<element type="segment" label="j">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-12" y="2"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="0.014468166644315383" y="-0.6221311657055657" z="0.9916012057877026"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a"/>
+</element>
+<expression label="ab" exp="f / g" />
+<element type="numeric" label="ab">
+	<value val="1.2867547182419938"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="bc" exp="g / i" />
+<element type="numeric" label="bc">
+	<value val="0.7967583068989181"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="ba" exp="h / f" />
+<element type="numeric" label="ba">
+	<value val="0.7851906845230628"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="cb" exp="j / h" />
+<element type="numeric" label="cb">
+	<value val="1.3579609844247538"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+</construction>
+</macro>
+<macro cmdName="ABCDCBAsection" toolName="ABCDCBA section" toolHelp="ABCDCBAsection[ &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt;, &lt;Point&gt; ]" iconFile="" showInToolBar="true" copyCaptions="true">
+<macroInput a0="I" a1="J" a2="K" a3="L" a4="M" a5="N" a6="O" a7="P"/>
+<macroOutput a0="f" a1="l" a2="k" a3="j" a4="i" a5="h" a6="g" a7="ab" a8="ba" a9="bc" a10="cb" a11="cd" a12="dc"/>
+<construction title="" author="" date="">
+<element type="point" label="I">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-2.4951140129283496" y="1.5451611126128497" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="J">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.6800739586319107" y="1.5548065570423935" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="K">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.057942792926345" y="1.5692747236867088" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="L">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.5997841825230212" y="1.5789201681162526" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="M">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.016234794535630093" y="1.5885656125457963" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="N">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.4371010936529217" y="1.6030337791901117" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="O">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="1.0061823149959974" y="1.6175019458344273" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="P">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="1.7344133694265433" y="1.6271473902639708" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="L" a1="M"/>
+	<output a0="f"/>
+</command>
+<element type="segment" label="f">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-12" y="-30"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.009645444429543737" y="0.5835493879873912" z="-0.927163082787433"/>
+	<lineStyle thickness="13" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a+2b"/>
+</element>
+<command name="Segment">
+	<input a0="M" a1="N"/>
+	<output a0="g"/>
+</command>
+<element type="segment" label="g">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-5" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.014468166644315383" y="0.4533358881885518" z="-0.7203886906220172"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a+b"/>
+</element>
+<command name="Segment">
+	<input a0="L" a1="K"/>
+	<output a0="h"/>
+</command>
+<element type="segment" label="h">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-4" y="3"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="0.009645444429543737" y="-0.45815861040332373" z="0.7291810551641696"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a+b"/>
+</element>
+<command name="Segment">
+	<input a0="N" a1="O"/>
+	<output a0="i"/>
+</command>
+<element type="segment" label="i">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-13" y="-31"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.014468166644315605" y="0.5690812213430757" z="-0.9059323694523321"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="b"/>
+</element>
+<command name="Segment">
+	<input a0="K" a1="J"/>
+	<output a0="j"/>
+</command>
+<element type="segment" label="j">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-12" y="2"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="0.014468166644315383" y="-0.6221311657055657" z="0.9916012057877026"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="b"/>
+</element>
+<command name="Segment">
+	<input a0="O" a1="P"/>
+	<output a0="k"/>
+</command>
+<element type="segment" label="k">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-18" y="-30"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.009645444429543515" y="0.7282310544305459" z="-1.1682100719531814"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a"/>
+</element>
+<command name="Segment">
+	<input a0="J" a1="I"/>
+	<output a0="l"/>
+</command>
+<element type="segment" label="l">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="204" b="102" alpha="0.0"/>
+	<layer val="8"/>
+	<labelOffset x="-16" y="0"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="0.009645444429543737" y="-0.8150400542964389" z="1.2834346806777992"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="a"/>
+</element>
+<expression label="ab" exp="f / g" />
+<element type="numeric" label="ab">
+	<value val="1.2867547182419938"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="bc" exp="g / i" />
+<element type="numeric" label="bc">
+	<value val="0.7967583068989181"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="cd" exp="i / k" />
+<element type="numeric" label="cd">
+	<value val="0.7816409074644709"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="ba" exp="h / f" />
+<element type="numeric" label="ba">
+	<value val="0.7851906845230628"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="cb" exp="j / h" />
+<element type="numeric" label="cb">
+	<value val="1.3579609844247538"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="dc" exp="l / j" />
+<element type="numeric" label="dc">
+	<value val="1.3098151074161635"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+</construction>
+</macro>
+</geogebra>

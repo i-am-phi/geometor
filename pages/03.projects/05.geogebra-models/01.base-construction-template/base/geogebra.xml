@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.618.0" app="classic" platform="d" id="3260073c-9142-44db-a7b4-8a03df5c8112"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1904" height="1074" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.10504201680672269" orientation="1" />
+		<pane location="1" divider="0.648109243697479" orientation="1" />
+		<pane location="1,1" divider="0.276536312849162" orientation="0" />
+	</panes>
+	<views>
+		<view id="32" visible="true" inframe="false" stylebar="true" location="1,1,2" size="623" window="50,50,500,500" />
+		<view id="4097" visible="true" inframe="false" stylebar="true" location="1,1,0" size="297" window="100,100,700,550" />
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="true" location="1,3" size="1234" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 , 66 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="true" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 1009 || 66 68 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="2" visible="true" inframe="false" stylebar="true" location="3" size="200" tab="ALGEBRA" window="100,100,250,400" />
+		<view id="16" visible="false" inframe="true" stylebar="true" location="1" size="141" window="8,766,948,551" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="150" window="50,50,500,500" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 39 73 62 | 1 | 5 | 2 45 , 18 65 , 7 37 | 10 34 53 11 , 24 20 22 , 21 23 | 15 | 16 51 64 , 70 | 40 , , | 42 | 41 | 27 | 28 | 35 | 6 | 60 | 100001 100002 100003 , 100007 100008 100009 , 100004 100005 100006" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="true" east="true" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="2"/>
+	<font  size="12"/>
+	<consProtColumns  col0="true" col1="true" col2="false" col3="true" col4="false" col5="true" col6="true" col7="false"/>
+	<consProtocol useColors="true" addIcons="false" showOnlyBreakpoints="false"/>
+	<consProtNavigationBar id="32 16" playButton="true" playDelay="2.0" protButton="true" consStep="12"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1234" height="886"/>
+	<coordSystem xZero="625.0" yZero="442.9999999999998" scale="295.3333333333331" yscale="295.3333333333331"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="0" rightAngleStyle="1" checkboxSize="26" gridType="3" lockedAxesRatio="1.0"/>
+	<bgColor r="0" g="0" b="0"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<spreadsheetView>
+	<spreadsheetColumn id="0" width="75"/>
+	<spreadsheetColumn id="1" width="75"/>
+	<spreadsheetColumn id="2" width="75"/>
+	<spreadsheetColumn id="3" width="75"/>
+	<spreadsheetColumn id="4" width="75"/>
+	<spreadsheetColumn id="5" width="75"/>
+	<spreadsheetColumn id="6" width="75"/>
+	<spreadsheetColumn id="7" width="75"/>
+	<spreadsheetColumn id="8" width="75"/>
+	<spreadsheetColumn id="9" width="75"/>
+	<spreadsheetColumn id="10" width="75"/>
+	<spreadsheetColumn id="11" width="75"/>
+	<spreadsheetColumn id="12" width="75"/>
+	<spreadsheetColumn id="13" width="75"/>
+	<spreadsheetColumn id="14" width="75"/>
+	<spreadsheetColumn id="15" width="75"/>
+	<spreadsheetColumn id="16" width="75"/>
+	<spreadsheetColumn id="17" width="75"/>
+	<spreadsheetColumn id="18" width="75"/>
+	<spreadsheetColumn id="19" width="75"/>
+	<spreadsheetColumn id="20" width="75"/>
+	<spreadsheetColumn id="21" width="75"/>
+	<spreadsheetColumn id="22" width="75"/>
+	<spreadsheetColumn id="23" width="75"/>
+	<spreadsheetColumn id="24" width="75"/>
+	<spreadsheetColumn id="25" width="75"/>
+</spreadsheetView>
+<algebraView>
+	<mode val="1"/>
+	<auxiliary show="true"/>
+</algebraView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="5"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="0" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2.0" max="2.0" step="1.0"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<element type="button" label="fit">
+	<show object="false" label="false" ev="2"/>
+	<objColor r="128" g="128" b="128" alpha="0.0"/>
+	<layer val="9"/>
+	<labelOffset x="99" y="79"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetActiveView(2)&#xa;ZoomIn(-2, -1.5, 2, 1.5)&#xa;"/>
+</element>
+<expression label="α" exp="(-0.5, 0)" type="point"/>
+<element type="point" label="α">
+	<show object="true" label="true" ev="6"/>
+	<objColor r="204" g="153" b="0" alpha="0.0"/>
+	<layer val="9"/>
+	<labelOffset x="-23" y="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.5" y="0.0" z="1.0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="β" exp="(0.5, 0)" type="point"/>
+<element type="point" label="β">
+	<show object="true" label="true" ev="6"/>
+	<objColor r="204" g="153" b="0" alpha="0.0"/>
+	<layer val="9"/>
+	<labelOffset x="10" y="-2"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<coords x="0.5" y="0.0" z="1.0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Line">
+	<input a0="α" a1="β"/>
+	<output a0="i01"/>
+</command>
+<element type="line" label="i01">
+	<show object="true" label="true" ev="6"/>
+	<objColor r="224" g="224" b="224" alpha="0.0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.0" y="1.0" z="-0.0"/>
+	<lineStyle thickness="3" type="20" typeHidden="1"/>
+	<eqnStyle style="implicit"/>
+	<caption val="baseline"/>
+</element>
+<command name="Segment">
+	<input a0="α" a1="β"/>
+	<output a0="Q1"/>
+</command>
+<element type="segment" label="Q1">
+	<show object="true" label="true" ev="6"/>
+	<objColor r="102" g="204" b="255" alpha="0.0"/>
+	<layer val="7"/>
+	<labelOffset x="-39" y="-28"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.0" y="1.0" z="-0.0"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="unit measure"/>
+</element>
+<command name="Circle">
+	<input a0="α" a1="β"/>
+	<output a0="c01a"/>
+</command>
+<element type="conic" label="c01a">
+	<show object="true" label="true" ev="6"/>
+	<objColor r="224" g="224" b="224" alpha="0.0"/>
+	<layer val="0"/>
+	<labelOffset x="57" y="-28"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="20" typeHidden="1"/>
+	<eigenvectors  x0="1.0" y0="0.0" z0="1.0" x1="-0.0" y1="1.0" z1="1.0"/>
+	<matrix A0="1.0" A1="1.0" A2="-0.75" A3="0.0" A4="0.5" A5="-0.0"/>
+	<eqnStyle style="specific"/>
+	<caption val="unit circle"/>
+</element>
+<command name="Circle">
+	<input a0="β" a1="α"/>
+	<output a0="c01b"/>
+</command>
+<element type="conic" label="c01b">
+	<show object="true" label="true" ev="6"/>
+	<objColor r="224" g="224" b="224" alpha="0.0"/>
+	<layer val="0"/>
+	<labelOffset x="63" y="-30"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="20" typeHidden="1"/>
+	<eigenvectors  x0="1.0" y0="0.0" z0="1.0" x1="-0.0" y1="1.0" z1="1.0"/>
+	<matrix A0="1.0" A1="1.0" A2="-0.75" A3="0.0" A4="-0.5" A5="-0.0"/>
+	<eqnStyle style="specific"/>
+	<caption val="unit circle"/>
+</element>
+<command name="Intersect">
+	<input a0="c01a" a1="i01" a2="2"/>
+	<output a0="p01"/>
+</command>
+<element type="point" label="p01">
+	<show object="true" label="true" ev="6"/>
+	<objColor r="224" g="224" b="224" alpha="0.0"/>
+	<layer val="9"/>
+	<labelOffset x="-35" y="1"/>
+	<labelMode val="0"/>
+	<coords x="-1.5" y="0.0" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="c01b" a1="i01" a2="2"/>
+	<output a0="p02"/>
+</command>
+<element type="point" label="p02">
+	<show object="true" label="true" ev="6"/>
+	<objColor r="224" g="224" b="224" alpha="0.0"/>
+	<layer val="9"/>
+	<labelOffset x="4" y="0"/>
+	<labelMode val="0"/>
+	<coords x="1.5" y="0.0" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="c01a" a1="c01b"/>
+	<output a0="p03b" a1="p03a" a2="" a3=""/>
+</command>
+<element type="point" label="p03b">
+	<show object="true" label="true" ev="6"/>
+	<objColor r="224" g="224" b="224" alpha="0.0"/>
+	<layer val="9"/>
+	<labelOffset x="2" y="-12"/>
+	<labelMode val="0"/>
+	<coords x="-0.0" y="0.8660254037844386" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="p03a">
+	<show object="true" label="true" ev="6"/>
+	<objColor r="224" g="224" b="224" alpha="0.0"/>
+	<layer val="9"/>
+	<labelOffset x="3" y="43"/>
+	<labelMode val="0"/>
+	<coords x="0.0" y="-0.8660254037844387" z="1.0"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Line">
+	<input a0="p03b" a1="p03a"/>
+	<output a0="i02"/>
+</command>
+<element type="line" label="i02">
+	<show object="true" label="true" ev="6"/>
+	<objColor r="224" g="224" b="224" alpha="0.0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1.7320508075688772" y="0.0" z="0.0"/>
+	<lineStyle thickness="3" type="20" typeHidden="1"/>
+	<eqnStyle style="implicit"/>
+	<caption val="bisector"/>
+</element>
+<command name="Segment">
+	<input a0="p03b" a1="p03a"/>
+	<output a0="Q3"/>
+</command>
+<element type="segment" label="Q3">
+	<show object="true" label="true" ev="6"/>
+	<objColor r="102" g="204" b="255" alpha="0.0"/>
+	<layer val="7"/>
+	<labelOffset x="28" y="29"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="1.7320508075688772" y="0.0" z="0.0"/>
+	<lineStyle thickness="8" type="0" typeHidden="1" opacity="127"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<caption val="root 3"/>
+</element>
+<command name="Intersect">
+	<input a0="i01" a1="i02"/>
+	<output a0="p05"/>
+</command>
+<element type="point" label="p05">
+	<show object="true" label="true" ev="6"/>
+	<objColor r="224" g="224" b="224" alpha="0.0"/>
+	<layer val="9"/>
+	<labelOffset x="12" y="-2"/>
+	<labelMode val="0"/>
+	<coords x="-0.0" y="0.0" z="1.7320508075688772"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<caption val="midpoint"/>
+</element>
+</construction>
+</geogebra>
