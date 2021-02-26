@@ -1,5 +1,14 @@
 name: GEOMETOR
-motto: exploring the architecture of all that is
+motto: exploring<br>the architecture of<br>all that is
+logo: logo.png
+email: phi@geometor.com
+social:
+  facebook: phiarchitect
+  twitter: phi_architect
+  linkedin: phiarchitect
+  github: geometor
+  patreon: phiarchitect
+  youtube: UCYzRQS16EBmsbKuyKMFHSFQ
 owa:
   siteId: 966594a8fb31bde819b2f9ec9210b821
   trackPageView: true
