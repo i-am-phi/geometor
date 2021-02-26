@@ -1,5 +1,6 @@
 ---
-title: Send Us a Message
+title: Send a Message
+subtitle: let us know who you are
 form:
     name: contact-form
     fields:
@@ -47,6 +48,11 @@ form:
             display: thankyou
 ---
 
-- We will get back to you as soon as possible.
+We are 
+- happy to answer questions
+- eager to hear feedback
+- interested in collaboration
+
+We look forward to hearing from you
 
 ===
