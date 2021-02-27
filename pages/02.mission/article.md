@@ -1,11 +1,8 @@
 ---
 title: Mission
-sets:
-    default:
-        name: Goals
-        showCount: true
-        showMenu: true
+subtitle: Exploring The Architecture of All That Is
 content:
+    title: Goals
     items: '@self.children'
 taxonomy:
     photon:
@@ -25,7 +22,7 @@ taxonomy:
 
 # Mission
 
-Exploring The Architecture of All That Is
+
 
 # Vision
 - create a platform for exploration
