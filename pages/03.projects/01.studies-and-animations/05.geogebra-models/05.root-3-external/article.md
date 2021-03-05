@@ -9,6 +9,7 @@ content:
 figure:
     image: root-3-external.svg
 taxonomy:
+    photon: 
     category: 
     tag: 
 ---

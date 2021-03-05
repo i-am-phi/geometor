@@ -9,6 +9,7 @@ figure:
     image: quadratic.svg
 taxonomy:
     photon:
+        - featured
 ---
 
 The Golden Ratio is a proportion of two unequal values \(a\) and \(b\) where

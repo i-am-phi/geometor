@@ -1,6 +1,6 @@
 ---
-title: Explorer
-subtitle: 'Hunting Golden Sections'
+title: GEOMETOR Explorer
+subtitle: symbolic algebra constructive geometry engine
 sets:
     default:
         name: Articles
@@ -14,7 +14,9 @@ taxonomy:
 
 ---
 
-**GEOMETOR Explorer** is an essential tool of the GEOMETOR Project.
+**GEOMETOR Explorer** is an essential tool of the GEOMETOR Project. The goal is to establish a system for generating constructive geometric figures and finding instance of golden sections.
+
+All of the learning within GEOMETOR should be embodied within explorer.
 
 ===
 

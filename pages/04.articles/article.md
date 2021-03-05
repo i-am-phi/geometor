@@ -1,15 +1,9 @@
 ---
 title: Articles
-sets:
-    default:
-        name: Recent
-        showCount: true
-        showMenu: true
+subtitle: concepts, philosophy, documentation
 content:
+    title: Articles
     items: '@self.children'
-    order:
-        by: header.date
-        dir: desc
 taxonomy:
     photon:
         - header

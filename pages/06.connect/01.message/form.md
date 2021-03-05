@@ -30,6 +30,9 @@ form:
             type: textarea
             validate:
                 required: true
+        - 
+            name: confirmation
+            type: honeypot
     buttons:
         -
             type: submit
