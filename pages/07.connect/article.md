@@ -9,6 +9,6 @@ taxonomy:
         - header
 ---
 
-get and stay connected with the GEOMETOR project
+get and stay connected with phi ARCHITECT
 
 ===
