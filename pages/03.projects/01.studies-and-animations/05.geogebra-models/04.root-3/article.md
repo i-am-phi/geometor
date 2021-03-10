@@ -11,6 +11,8 @@ figure:
 taxonomy:
     category: 
     tag: 
+gallery:
+    show: true
 ---
 
 

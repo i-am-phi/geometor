@@ -1,0 +1,6 @@
+.point {
+  fill: black;
+  stroke: gold;
+  stroke-width: 10px; /* Note: The value of a pixel depends
+                         on the view box */
+}
