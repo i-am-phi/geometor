@@ -2,11 +2,6 @@
 title: 'Deep Field Project'
 subtitle: 'Finding Golden Sections within a blank canvas'
 menu: 'deep field'
-sets:
-    default:
-        name: Details
-        showCount: true
-        showMenu: true
 content:
     items: '@self.children'
 taxonomy:

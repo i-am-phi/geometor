@@ -1,4 +1,7 @@
-.point { stroke: black; stroke-width: 3; fill: white; }
+.point > path:nth-child(1) { stroke: none; fill-opacity: 1; fill: white; }
+.point > path:nth-child(2) { stroke: black; stroke-opacity: 1; fill: none; }
+.point.golden > path:nth-child(1) { stroke-width: 12; stroke: #DA0; stroke-opacity: 0.4; fill: #DA0;  fill-opacity: 1;  }
+.point.golden > path:nth-child(2) { stroke: black; stroke-opacity: 1; fill: white; }
 .line { stroke: #808080; stroke-width: 3; stroke-opacity: 0.3; stroke-linejoin: round; stroke-linecap: butt; } 
 .circle { stroke: #808080; stroke-width: 3; stroke-opacity: 0.3; stroke-linejoin: round; stroke-linecap: butt; fill: none; } 
 .polygon { stroke-width: 5; stroke-linejoin: round; stroke-linecap: butt; fill: none; } 
@@ -11,4 +14,3 @@
 .c { stroke-width: 12; } 
 .d { stroke-width: 16; } 
 .golden { stroke: #DA0; stroke-opacity: 0.4; fill: #DA0; } 
-.point.golden { stroke-width: 12; fill: black; }

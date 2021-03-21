@@ -4,6 +4,8 @@ subtitle: Exploring The Architecture of All That Is
 content:
     title: Goals
     items: '@self.children'
+figure:
+    image: root3-harmonics.svg
 taxonomy:
     photon:
         - header
