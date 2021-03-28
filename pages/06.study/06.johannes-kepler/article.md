@@ -1,17 +1,17 @@
 ---
-title: Fundamentals
-subtitle: concepts in constructive geometry
-date: 12/02/2020
+title: Johannes Kepler
+subtitle: gifted observer
+date: 03/28/2021
 author: /phi
 content:
     title: Articles
     items: '@self.children'
 taxonomy:
+    photon:
     category: 
     tag: 
 ---
 
-The geometric studies of Fred Seelig
 
 
 ===

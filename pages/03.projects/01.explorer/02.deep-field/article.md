@@ -9,6 +9,6 @@ taxonomy:
         - featured
 ---
 
-Like the Hubble Deep Field Experiment which searched fro galaxies in an empty spot in space, we are are planning to turn Geomtor Explorer to a blank canvas to see howm any unique instances of golden ratios we can find.
+Like the Hubble Deep Field Experiment which searched for galaxies in an empty spot in space, we are are planning to turn Geometor Explorer to a blank canvas to see how many unique instances of golden ratios we can find.
 
 ===
