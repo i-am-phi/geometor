@@ -19,6 +19,12 @@ taxonomy:
 
 ===
 
+## Statement
+
+**The Geometor Project** is dedicated to understanding the Architecture of All That Is. As we begin, we will shine light on the Golden Ratio, seeking to answer fundamental questions about the nature of its attributes. And perhaps, uncover the "root cause" - the conditions that bring it into existence. 
+
+## Motivation
+
 Since antiquity, there has been a fascination and reverence for a beautiful phenomenon known as the Divine Proportion, or more commonly, the Golden Ratio.
 
 It is based on a simple relationship between two unequal values, A and B, where 
@@ -36,8 +42,8 @@ But out of this most simple idea comes principles of proportion, harmonics and g
 
 The Golden Ratio behaves as an inflection point between arithmetic and geometry with intriguing algebraic identities and geometric constructions that produce endless Golden Section instances out of the most fundamental formations. It appears to be everywhere. And it is not only evident in abstract concepts like mathematics, it is the principle of unfolding by which so many things, living and not, find their form.
 
-**The Geometor Project** is dedicated to understanding the Architecture of All That Is. As we begin, we will shine light on the Golden Ratio, seeking to answer fundamental questions about the nature of its attributes. And perhaps, uncover the "root cause" - the conditions that bring it into existence. 
 
+## Motion
 The Geometor Project has three primary objectives within its mission. 
 
 * Gather Knowledge
