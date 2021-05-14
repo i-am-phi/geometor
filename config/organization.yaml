@@ -10,6 +10,7 @@ social:
   patreon: phiarchitect
   youtube: UCYzRQS16EBmsbKuyKMFHSFQ
 owa:
+  siteUrl: 'https://logs.geometor.com/'
   siteId: 966594a8fb31bde819b2f9ec9210b821
   trackPageView: true
   trackCLicks: false
